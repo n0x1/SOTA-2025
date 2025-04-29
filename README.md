@@ -2,7 +2,7 @@
 
 On April 9, The Phillipian, vol. CXLV, sent out the 2025 “State of the Academy” survey to all Andover students in the hopes of obtaining valuable information about the school community.
 
-The Phillipian received a participation rate of 75.6 percent of the student body–867 participants. The anonymous survey asked a comprehensive set of 148 questions, comprised of nine sections: General, Politics & Worldview, Wellness, Sex, Drugs & Alcohol, School, Campus Culture, Community & Diversity, and Discipline.
+The Phillipian received a participation rate of 75.2 percent of the student body–867 participants. The anonymous survey asked a comprehensive set of 148 questions, comprised of nine sections: General, Politics & Worldview, Wellness, Sex, Drugs & Alcohol, School, Campus Culture, Community & Diversity, and Discipline.
 
 To determine correlations, The Phillipian analyzed the CSV file of all responses from Survey Monkey with Python. The Phillipian proceeded to use PANDAS, matplotlib.plotly, and numpy libraries to find correlations between each question.
 
