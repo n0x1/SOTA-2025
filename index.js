@@ -1,5 +1,6 @@
 // const { tryGetPreviewData } = require("next/dist/server/api-utils");
 
+// All blurbs are from 2024; rewrite to reflect accurate data
 sota.sotaConfig.sections = [
   {
     slug: "general",
@@ -102,7 +103,7 @@ sota.sotaConfig.sections = [
     name: "Campus Culture",
     colors: ["#762670", "#945E98", "#A77FAD", "#BC98B9", "#D9C6D8"],
     blurb:
-      "As Dr. Raynard Kington nears the end of his fourth year as Andover’s Head of School (HOS), 44.8% of students approved of the work Kington was doing for the students, while only 17.8% of students thought Kington connected with the student body. 74.5% of students believed Andover should divest from fossil fuel companies, and 17.5% of students believed Andover does enough to combat climate change. 30.7% of students thought Andover's anti-racist work is sufficient.",
+      "As Dr. Raynard Kington nears the end of his fifth year as Andover’s Head of School (HOS), TODO % of students approved of the work Kington was doing for the students, while only TODO % of students thought Kington connected with the student body. TODO % of students believed Andover should divest from fossil fuel companies, and 17.5% of students believed Andover does enough to combat climate change. 30.7% of students thought Andover's anti-racist work is sufficient.",
   },
   {
     slug: "diversity",
@@ -171,18 +172,20 @@ window.onload = () => {
   }
   sota.bigNumber({
     section: "general",
-    number: "859",
+    number: "867",
     title: "",
     subtitle: "total students responded.",
-    // 2024
+    // 25
   });
 
   sota.bigNumber({
     section: "general",
-    number: "74.4%",
+    number: "75.2%",
     title: "",
     subtitle: "of the student body participated in this survey.",
+    // 25
   });
+
 
   sota.pieChart({
     section: "general",
