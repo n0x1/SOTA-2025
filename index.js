@@ -1195,7 +1195,7 @@ window.onload = () => {
     title: "ideological diversity",
     subtitle:
       "Do you think the school promotes ideological diversity in its selection of speakers?",
-    // 2024!!
+    // 2025
   });
 
   sota.stackedBarChart({
