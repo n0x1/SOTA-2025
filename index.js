@@ -262,12 +262,12 @@ window.onload = () => {
 
   sota.barChart({
     section: "general",
-    dataFile: "assets/data/general/repeat-grade",
-    totalResp: 851,
+    dataFile: "assets/data/general/3-repeat-grade",
+    totalResp: 865,
     displayPercentage: true,
     title: "Repeat Grade",
     subtitle: "Have you repeated a grade at Andover?",
-    // 2024!!
+    // 2025!
   });
 
   sota.pieChart({
@@ -281,7 +281,7 @@ window.onload = () => {
 
   sota.pieChart({
     section: "general",
-    dataFile: "assets/data/general/international-continent",
+    dataFile: "assets/data/general/7-international-continent",
     sorted: false,
     title: "Continents",
     subtitle:
@@ -465,23 +465,23 @@ window.onload = () => {
 
   sota.barChart({
     section: "general",
-    dataFile: "assets/data/general/perceived-socioeconomic",
-    totalResp: 844,
+    dataFile: "assets/data/general/21-perceived-socioeconomic",
+    totalResp: 859,
     displayPercentage: true,
     title: "Socioeconomic Status",
     subtitle: "What is your perceived socioeconomic status?",
-    // 2024!!
+    // 2025
   });
 
   sota.pieChart({
     section: "general",
     dataFile: "assets/data/general/22-income",
-    totalResp: 843,
+    totalResp: 859,
     sorted: false,
     title: "Net Income",
     subtitle: "What is your net family income?",
     margin: margin,
-    // 2024!!
+    // 2025
   });
 
   sota.stackedBarChart({
@@ -636,12 +636,12 @@ window.onload = () => {
 
   sota.pieChart({
     section: "politics",
-    dataFile: "assets/data/politics/changing-beliefs",
-    totalResp: 783,
+    dataFile: "assets/data/politics/25-changingbeliefs",
+    totalResp: 818,
     sorted: false,
     title: "Changing Beliefs",
     subtitle: "Have your political beliefs changed in the past year?",
-    // 2023!!
+    // 2025
   });
 
   sota.stackedBarChart({
