@@ -571,6 +571,8 @@ window.onload = () => {
 
   // --- POLITICS!! --
 
+  //TODO: DEI
+
   sota.pieChart({
     section: "politics",
     dataFile: "assets/data/politics/24-political_affiliation",
@@ -2661,16 +2663,16 @@ window.onload = () => {
     title: "Porn",
     subtitle:
       "If you watch pornography/read pornographic materials, how frequently, on average, do you do so?",
-    // 2024!!
+    // 2025
   });
 
   sota.bigNumber({
     section: "sex",
-    number: "19.7%",
+    number: "17.1%",
     title: "sexting",
     subtitle:
       "of respondents have sent a sexually explicit photo of themselves.",
-    // 2024!!
+    // 2025!
   });
 
   sota.pieChart({
@@ -2722,12 +2724,12 @@ window.onload = () => {
 
   sota.pieChart({
     section: "sex",
-    dataFile: "assets/data/sex/sex-sykes",
+    dataFile: "assets/data/sex/88-sex-sykes",
     showLegend: true,
     title: "Sykes Support",
     subtitle:
       "Do you feel comfortable consulting Rebecca M. Sykes Wellness Center for sex-related resources and care?",
-    // 2024!!
+    // 2025
   });
 
   // sota.bigNumber({
@@ -3159,6 +3161,7 @@ window.onload = () => {
   });
 
   // ----- WELLNESS!! <3 ------
+// TODO:  CAFFEEINE
 
   sota.bigNumber({
     section: "wellness",
@@ -3359,10 +3362,10 @@ window.onload = () => {
   sota.bigNumber({
     section: "wellness",
     title: "Sykes Counseling",
-    number: "34.9%",
+    number: "32.9%",
     subtitle:
       "of students have been to Rebecca M. Sykes Wellness Center to see a counselor.",
-    // 2023!!
+    // 2025
   });
 
   sota.pieChart({
@@ -3372,7 +3375,7 @@ window.onload = () => {
     subtitle:
       "Have you ever been to the Rebecca M. Sykes Wellness Center to see a counselor?",
     title: "Sykes counseling",
-    // 2023!!
+    // 2025
   });
 
   sota.stackedBarChart({
