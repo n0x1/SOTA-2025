@@ -2,33 +2,16 @@
 
 
 
+note: some deleted ones are new (i.e. data entered but does not exist in index.js)
+trying to add "TODO" in index.js to search and add those ones later
 
-25
-26
+Data not entered questions:
 
-
-29
-
-
-
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-47
-
-51
 
 55
 56
 57
-58
+
 
 
 
@@ -41,15 +24,15 @@
 79
 80
 
-82
-83
-84
-85
-86
-87
-88
-89
-90
+
+
+
+
+
+
+
+
+
 91
 92
 93
