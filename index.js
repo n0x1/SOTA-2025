@@ -175,7 +175,7 @@ window.onload = () => {
     number: "867",
     title: "",
     subtitle: "total students responded.",
-    // 25
+    // 2025
   });
 
   sota.bigNumber({
@@ -190,7 +190,7 @@ window.onload = () => {
   sota.pieChart({
     section: "general",
     dataFile: "assets/data/general/1-class",
-    totalResp: 852,
+    totalResp: 865,
     displayPercentage: true,
     sorted: false,
     // shapeFile: "assets/svgs/graduationcap",
@@ -198,7 +198,7 @@ window.onload = () => {
     // shapeHeight: 100,
     title: "WHAT CLASS ARE YOU IN?",
     subtitle: "Editor’s note: Seven students did not select a class year.",
-    // 2024!!
+    // 2025!!
   });
 
   sota.pieChart({
@@ -211,32 +211,32 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "general",
-    number: "175",
+    number: "185",
+    title: "",
+    subtitle: "students responded from the Class of 2028.",
+    // 2025
+  });
+  sota.bigNumber({
+    section: "general",
+    number: "244",
     title: "",
     subtitle: "students responded from the Class of 2027.",
-    // 2024
+    // 2025
   });
-  sota.bigNumber({
-    section: "general",
-    number: "209",
-    title: "",
-    subtitle: "students responded from the Class of 2026.",
-    // 2024
-  });
-  sota.bigNumber({
-    section: "general",
-    number: "227",
-    title: "",
-    subtitle: "students responded from the Class of 2025.",
-    // 2024
-  });
-
   sota.bigNumber({
     section: "general",
     number: "241",
     title: "",
-    subtitle: "students responded from the Class of 2024.",
-    // 2024
+    subtitle: "students responded from the Class of 2026.",
+    // 2025
+  });
+
+  sota.bigNumber({
+    section: "general",
+    number: "195",
+    title: "",
+    subtitle: "students responded from the Class of 2025.",
+    // 2025
   });
 
   sota.pieChart({
@@ -246,7 +246,7 @@ window.onload = () => {
     title: "Student Clusters",
     subtitle: "Which cluster are you affiliated with?",
     margin: margin,
-    // 2024!!
+    // 2025
   });
 
   sota.barChart({
@@ -257,7 +257,7 @@ window.onload = () => {
     title: "Time at Andover",
     subtitle:
       "How long have you attended Andover? (e.g. if you are currently a two-year lower, answer “2 years”) If at any point you took a leave of absence, round to the nearest whole year.",
-    // 2024!!
+    // 2025!
   });
 
   sota.barChart({
@@ -276,7 +276,7 @@ window.onload = () => {
     sorted: false,
     title: "Geographical Distribution",
     subtitle: "What region are you from?",
-    // 2024
+    // 2025
   });
 
   sota.pieChart({
@@ -286,7 +286,7 @@ window.onload = () => {
     title: "Continents",
     subtitle:
       "If you are an international student, what continent are you from?",
-    // 2024
+    // 2025
   });
 
   sota.pieChart({
@@ -295,7 +295,7 @@ window.onload = () => {
     sorted: false,
     title: "Urban vs. Rural",
     subtitle: "What type of community do you live in?",
-    // 2024!!
+    // 2025!!
   });
 
   sota.pieChart({
@@ -305,42 +305,42 @@ window.onload = () => {
     title: "U.S. Residence",
     subtitle:
       "If you live in the United States of America, are you a citizen and/or permanent resident of the U.S.?",
-    // 2024!!
+    // 2025!!
   });
 
   sota.barChart({
     section: "general",
     dataFile: "assets/data/general/guardian-residence",
-    totalResp: 837,
+    totalResp: 850,
     displayPercentage: true,
     title: "Parent and Guardian Residence",
     subtitle:
       "If you live in the United States of America, how many of your guardian(s) are citizens and/or permanent residents of the U.S.?",
-    // 2024!!
+    // 2025!!
   });
 
   sota.barChart({
     section: "general",
     dataFile: "assets/data/general/9-parents_college",
-    totalResp: 853,
+    totalResp: 873,
     displayPercentage: true,
     title: "HOW MANY OF YOUR PARENTS GRADUATED FROM COLLEGE?",
-    // 2024!!
+    // 2025!
   });
 
   sota.barChart({
     section: "general",
     dataFile: "assets/data/general/11-familialsituation",
-    totalResp: 849,
+    totalResp: 867,
     displayPercentage: true,
     title: "Which of these describe your familial situation?",
-    // 2024!!
+    // 2025!
   });
 
   sota.bigNumber({
     section: "general",
     dataFile: "assets/data/general/12-legacy",
-    number: "37.21%",
+    number: "38.10%",
     title: "Legacy",
     subtitle:
       "of respondents have at least one immediate family member who is currently attending or has previously attended Andover.",
@@ -358,45 +358,45 @@ window.onload = () => {
     title: "Legacy and Income",
     subtitle:
       "Whether or not respondents had at least one immediate family member who was attending or has previously attended Andover, and their income.",
-    // 2024!
+    // 2025
   });
 
   sota.barChart({
     section: "general",
     dataFile: "assets/data/general/13-sex",
-    totalResp: 854,
+    totalResp: 865,
     displayPercentage: true,
     title: "What is your assigned sex at birth?",
-    // 2024!!
+    // 2025!
   });
 
   sota.barChart({
     section: "general",
     dataFile: "assets/data/general/14-gender",
-    totalResp: 854,
+    totalResp: 866,
     displayPercentage: true,
     title: "WHAT IS YOUR GENDER IDENTITY?",
-    // 2024!!
+    // 2025!!
   });
 
   sota.barChart({
     section: "general",
     dataFile: "assets/data/general/15-pronoun",
-    totalResp: 853,
+    totalResp: 895,
     displayPercentage: true,
     title: "What are your preferred gender pronouns?",
     subtitle:
       "Editor’s note: Respondents were able to select multiple responses.",
-    // 2024!!
+    // 2025!!
   });
 
   sota.barChart({
     section: "general",
     dataFile: "assets/data/general/16-sexual_orientation",
-    totalResp: 851,
+    totalResp: 895,
     displayPercentage: true,
     title: "What is your sexual orientation?",
-    // 2024!!
+    // 2025!!
   });
 
   sota.stackedBarChart({
@@ -410,26 +410,26 @@ window.onload = () => {
     title: "Sexual Orientation & Gender Identity",
     subtitle:
       "The respondents' sexual orientation compared to their gender identity. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2024!
+    // 2025
   });
 
   sota.barChart({
     section: "general",
     dataFile: "assets/data/general/17-romantic_orientation",
-    totalResp: 850,
+    totalResp: 905,
     displayPercentage: true,
     title: "What is your romantic orientation?",
-    // 2024!!
+    // 2025!
   });
 
   sota.columnChart({
     section: "general",
     dataFile: "assets/data/general/18-race",
-    totalResp: 850,
+    totalResp: 1052,
     title: "What is your race?",
     subtitle:
       "Editor’s Note: Respondents were given the option to select more than one answer if applicable.",
-    // 2024!!
+    // 2025!!
   });
 
   sota.barChart({
@@ -439,7 +439,7 @@ window.onload = () => {
     title: "What is your ethnicity?",
     subtitle:
       "Editor’s Note: Respondents were given the option to select more than one answer if applicable.",
-    // 2024!!
+    // 2025!!
   });
 
   // sota.stackedBarChart({
