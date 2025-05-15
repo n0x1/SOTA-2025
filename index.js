@@ -585,12 +585,14 @@ window.onload = () => {
 
   // --- POLITICS!! --
 
-  sota.pieChart({
+  sota.barChart({
     section: "politics",
     dataFile: "assets/data/politics/40-dei",
+    totalResp: 821,
     sorted: false,
     title: "DEI Support",
     subtitle: "Do you support Diversity, Equity and Inclusion (DEI) programs in the workplace and educational institutions — “a set of values and related policies and practices focused on establishing a group culture of equitable and inclusive treatment and on attracting and retaining a diverse group of participants, including people who have historically been excluded or discriminated against” (Merriam-Webster Dictionary)?"
+    // 2025
   })
 
   sota.pieChart({
@@ -2865,16 +2867,19 @@ window.onload = () => {
   //   // 2023!!
   // });
 
-  sota.stackedBarChart({
-    section: "sex",
-    dataFile: "assets/data/sex/sex-influence",
-    showLegend: true,
-    labelStyle: "onBar",
-    title: "Sex Under the Influence",
-    subtitle:
-      "Have you ever engaged in sexual activity while under the influence of drugs or alcohol?",
-    // 2024!!
-  });
+  // sota.stackedBarChart({
+  //   section: "sex",
+  //   dataFile: "assets/data/sex/sex-influence",
+  //   sorted: false,
+  //   showLegend: true,
+  //   displayPercentage: true,
+  //   groupLabelStyle: "onBar",
+  //   labelStyle: "onBar",
+  //   title: "Sex Under the Influence",
+  //   subtitle:
+  //     "Have you ever engaged in sexual activity while under the influence of drugs or alcohol?",
+  //   // 2024
+  // });
 
   sota.stackedBarChart({
     section: "sex",
@@ -3617,7 +3622,7 @@ window.onload = () => {
     labelStyle: "onBar",
     title: "HAPPINESS",
     subtitle: "Generally speaking, do you consider yourself happy at Andover?",
-    // 2023!!
+    // 2025
   });
 
   sota.stackedBarChart({
@@ -3625,10 +3630,10 @@ window.onload = () => {
     dataFile: "assets/data/wellness/66-others_happiness",
     showLegend: true,
     labelStyle: "onBar",
-    title: "perceived happiness",
+    title: "Perceived Happiness",
     subtitle:
       "Generally speaking, do you think that Andover students are happy?",
-    // 2023!!
+    // 2025
   });
 
   sota.stackedBarChart({
@@ -3705,7 +3710,7 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     showLegend: true,
     labelStyle: "onBar",
-    title: "Lonliness & Social Media",
+    title: "Loneliness & Social Media",
     subtitle:
       "Correspondents who feel lonely or isolated correlated with the hours they spend on social media.",
     // 2023!!
@@ -3992,3 +3997,8 @@ window.onload = () => {
 
   sota.sotaMasonry();
 };
+
+// Add a resize event listener to ensure charts scale properly when the window size changes.
+window.addEventListener("resize", () => {
+  sota.sotaMasonry(); // Recalculate layout on window resize
+});
