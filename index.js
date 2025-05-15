@@ -427,7 +427,7 @@ window.onload = () => {
   sota.columnChart({
     section: "general",
     dataFile: "assets/data/general/18-race",
-    totalResp: TODO,
+    totalResp: 847,
     title: "What is your race?",
     subtitle:
       "Editor’s Note: Respondents were given the option to select more than one answer if applicable.",
@@ -457,7 +457,7 @@ window.onload = () => {
   sota.barChart({
     section: "general",
     dataFile: "assets/data/general/20-religion",
-    totalResp: TODO,
+    totalResp: 859,
     displayPercentage: true,
     title: "With which religion/faith system do you currently identify with?",
     subtitle:
@@ -737,7 +737,7 @@ window.onload = () => {
   sota.barChart({
     section: "politics",
     dataFile: "assets/data/politics/30-news_sources",
-    totalResp: TODO,
+    totalResp: 850,
     displayPercentage: true,
     title: "Staying Informed",
     subtitle: "How do you get your news?",
@@ -747,7 +747,7 @@ window.onload = () => {
   sota.barChart({
     section: "politics",
     dataFile: "assets/data/politics/29-news",
-    totalResp: TODO,
+    totalResp: 850,
     displayPercentage: true,
     title: "Getting Information",
     subtitle: "Where do you get your news?",
@@ -1337,21 +1337,23 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.pieChart({
-    section: "campus",
-    dataFile: "assets/data/campus/130-indigenousday",
-    title:
-      'Do you think that Andover should have a "day on" for Indigenous People\'s Day?',
-    // 2023!!
-  });
+  // sota.pieChart({
+  //   section: "campus",
+  //   dataFile: "assets/data/campus/130-indigenousday",
+  //   title:
+  //     'Do you think that Andover should have a "day on" for Indigenous People\'s Day?',
+  //   // 2023!!
+  // });
 
-  sota.pieChart({
-    section: "campus",
-    dataFile: "assets/data/campus/earthday",
+  // sota.pieChart({
+  //   section: "campus",
+  //   dataFile: "assets/data/campus/earthday",
 
-    title: 'Do you think that Andover should have a "day on" for Earth Day?',
-    // 2023!!
-  });
+  //   title: 'Do you think that Andover should have a "day on" for Earth Day?',
+  //   // 2023!!
+  // });
+
+  // TODO: Add day on bar chart what days on from assets/data/campus/125-dayson
 
   sota.pieChart({
     section: "campus",
@@ -1359,7 +1361,7 @@ window.onload = () => {
     sorted: false,
     title:
       "Do you think that Andover prioritizes athletics (compared to music, art, robotics, etc.)?",
-    // 2024!!
+    // 2025
   });
 
   sota.stackedBarChart({
@@ -1378,11 +1380,11 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "campus",
-    number: "44.78%",
+    number: "55.57%",
     title: "Head of School Approval",
     subtitle:
       "of respondents that approve of the work the Head of School is doing for students.",
-    // 2024!!
+    // 2025
   });
 
   sota.pieChart({
@@ -1392,7 +1394,7 @@ window.onload = () => {
     title: "Head of School Approval",
     subtitle:
       "Do you approve of the work the Head of School is doing for the students?",
-    // 2024!!
+    // 2025
   });
 
   sota.stackedBarChart({
@@ -1621,10 +1623,10 @@ window.onload = () => {
   // --- SCHOOL!! ---
   sota.bigNumber({
     section: "school",
-    number: "5.42",
+    number: "5.40",
     title: "Overall Average GPA",
     subtitle:
-      "average rounded Winter Term GPA, a 0.1 increase from 2023 (last year).",
+      "average rounded Winter Term GPA, a 0.02 decrease from 2024 (last year).",
     // 2023!!
   });
 
@@ -1655,7 +1657,7 @@ window.onload = () => {
       "Respondents who indentified as a man or woman had the same average GPA of",
     subtitle:
       "Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!!
+    // 2023!! TODO correlation
   });
 
  sota.stackedBarChart({
@@ -1668,7 +1670,7 @@ window.onload = () => {
     displayPercentage: true,
     title: "GPA and Gender",
     subtitle: "Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents."
-    // 2023!!
+    // 2023!! TODO correlation
   });
 
   sota.stackedBarChart({
@@ -1681,7 +1683,7 @@ window.onload = () => {
     displayPercentage: true,
     title: "GPA and Sleep",
 
-    // 2023!!
+    // 2023!! TODO correlation
   });
 
   sota.multiLineGraph({
@@ -1700,7 +1702,7 @@ window.onload = () => {
     // totalResp: 854,
     title: "Grading Scale",
     subtitle: 'Do you think a "4" is a good grade?',
-    // 2023!!
+    // 2025!!
   });
 
   sota.stackedBarChart({
@@ -1722,8 +1724,8 @@ window.onload = () => {
     number: "3.8",
     title: "Time Spent on Coursework",
     subtitle:
-      "average hours spent on coursework daily, a 1.9 hour decrease from 2022 (last year).",
-    // 2023!!
+      "average hours spent on coursework daily, the same as 2024 (last year).",
+    // 2025
   });
 
   sota.lineGraph({
@@ -1734,7 +1736,7 @@ window.onload = () => {
     title: "Hours on coursework",
     subtitle:
       "How many hours do you spend on coursework outside of class each day?",
-    // 2023!
+    // 2023! todo check
   });
 
   sota.barChart({
@@ -1813,12 +1815,12 @@ window.onload = () => {
   sota.pieChart({
     section: "school",
     dataFile: "assets/data/school/121-teacher_care",
-    totalResp: 802,
+    totalResp: 763,
     sorted: false,
     title: "Teacher Support",
     subtitle:
       "Do you think that the majority of your teachers care about your health and well-being?",
-    // 2023!!
+    // 2025
   });
 
   sota.pieChart({
@@ -1862,11 +1864,11 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "school",
-    number: "12.2%",
+    number: "10.7%",
     title: "Learning Disability",
     subtitle:
       "of respondents have a disability/disorder/impairment that affects their learning.",
-    // 2023!!
+    // 2025
   });
 
   sota.pieChart({
@@ -1961,10 +1963,10 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "discipline",
-    number: "9.97%",
-    title: "Level 3 Violation",
+    number: "13.3%",
+    title: "Major Discipline Violation",
     subtitle:
-      "of respondents have commited a Level 3 violation without being caught.",
+      "of respondents have commited a major discipline violation without being caught.",
     margin: margin,
     // 2024!!
   });
@@ -2126,7 +2128,7 @@ window.onload = () => {
     displayPercentage: true,
     title: "Student Understanding",
     subtitle: "Do you understand the new Response to Student Behavior process?",
-    // 2024!!
+    // 2025!!
   });
 
   sota.stackedBarChart({
@@ -2156,16 +2158,16 @@ window.onload = () => {
   //     "Whether respondents understand the new disciplinary process correlated with their class year.",
   //   // 2023!!
   // });
-  sota.pieChart({
-    section: "discipline",
-    dataFile: "assets/data/discipline/160-Level3-caught",
-    sorted: false,
-    title: "Level 3 Violation",
-    margin: margin,
-    subtitle:
-      "Have you ever committed a Level 3 violation without being caught? (Level 3 violations include, but are not limited to: selling or providing drugs/alcohol/nicotine, bullying, hazing, major destruction of property, sexual misconduct)",
-    // 2024!!
-  });
+  // sota.pieChart({
+  //   section: "discipline",
+  //   dataFile: "assets/data/discipline/160-Level3-caught",
+  //   sorted: false,
+  //   title: "Level 3 Violation",
+  //   margin: margin,
+  //   subtitle:
+  //     "Have you ever committed a Level 3 violation without being caught? (Level 3 violations include, but are not limited to: selling or providing drugs/alcohol/nicotine, bullying, hazing, major destruction of property, sexual misconduct)",
+  //   // 2024!!
+  // });
 
   sota.pieChart({
     section: "discipline",
@@ -2249,7 +2251,7 @@ window.onload = () => {
     sota.barChart({
     section: "diversity",
     dataFile: "assets/data/diversity/faculty_diversityXrace",
-    totalResp: 170,
+    totalResp: 207,
     displayPercentage: true,
     title: "Faculty Diversity by Race",
     subtitle: "Respondents who believe that the faculty of Andover is lacking diversity in race.",
@@ -2259,7 +2261,7 @@ window.onload = () => {
     sota.barChart({
     section: "diversity",
     dataFile: "assets/data/diversity/faculty_diversityXrace",
-    totalResp: 170,
+    totalResp: 207,
     displayPercentage: true,
     title: "Faculty Diversity by Race",
     subtitle: "Respondents who believe that the faculty of Andover is lacking diversity in race.",
@@ -2520,7 +2522,7 @@ window.onload = () => {
     title: "Sexual Activity by Grade",
     subtitle:
       "Respondents who have participated in sexual activity sorted by grade.",
-    // 2024!!
+    // TODO for 2025
   });
 
   sota.barChart({
@@ -2602,11 +2604,11 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "sex",
-    number: "13.09%",
+    number: "12.0%",
     title: "Partner Pressure",
     subtitle:
       "of respondents have felt pressured by their partners to engage in sexual activity.",
-    // 2024!!
+    // 2025
   });
 
   sota.pieChart({
