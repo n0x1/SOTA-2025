@@ -826,6 +826,7 @@ window.onload = () => {
       "Whether respondents believe in reverse racism compared to their race. Editor’s Note: Correlated statistics from respondents whose races are “Indigenous Peoples of the Americas” and “Native Hawaiian or Pacific Islander” have been removed in an effort to protect the complete anonymity of these respondents",
     // 2024!
   });
+
     sota.stackedBarChart({
     section: "politics",
     dataFile: "assets/data/politics/reverse_racismXyear.csv",
@@ -838,6 +839,51 @@ window.onload = () => {
     title: "Reverse Racism & Class Year",
     subtitle:
       "Whether respondents believe in reverse racism based on their class year.",
+    // 2024!
+  });
+
+    sota.stackedBarChart({
+    section: "politics",
+    dataFile: "assets/data/politics/legacysuppXlegacyandover.csv",
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    inputIsPercentage: false,
+    sorted: false,
+    showLegend: false,
+    title: "Legacy at Andover & Support for Legacy Admissions",
+    subtitle:
+      "Whether students have legacy status at Andover correlated with support for legacy admissions.",
+    // 2024!
+  });
+
+    sota.stackedBarChart({
+    section: "politics",
+    dataFile: "assets/data/politics/DEIXrace.csv",
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    inputIsPercentage: false,
+    sorted: false,
+    showLegend: false,
+    title: "Support for DEI Correlated with Race",
+    subtitle:
+      "Percentage of students of each race that support DEI initiatives",
+    // 2024!
+  });
+
+    sota.stackedBarChart({
+    section: "politics",
+    dataFile: "assets/data/politics/DEIXyear.csv",
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    inputIsPercentage: false,
+    sorted: false,
+    showLegend: false,
+    title: "Support for DEI Correlated with Class Year",
+    subtitle:
+      "Percentage of students of each grade that support DEI initiatives",
     // 2024!
   });
 
