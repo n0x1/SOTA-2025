@@ -2767,17 +2767,17 @@ window.onload = () => {
 
   sota.pieChart({
     section: "sex",
-    dataFile: "assets/data/sex/86-receive_sext",
+    dataFile: "assets/data/sex/sexted",
     displayPercentage: true,
-    title: "Have you ever sent a sexually explicit photo?",
-    // 2024!!
+    title: "Have you ever received a sexually explicit photo?",
+    // 2025
   });
 
   sota.columnChart({
     section: "sex",
     dataFile: "assets/data/sex/89-harassed",
     displayPercentage: true,
-    totalResp: 669,
+    totalResp: 695,
     title: "Have you ever been sexually harassed?",
     // 2024!!
   });
@@ -2797,9 +2797,9 @@ window.onload = () => {
     section: "sex",
     dataFile: "assets/data/sex/91-assaulted",
     displayPercentage: true,
-    totalResp: 669,
+    totalResp: 694,
     title: "Have you ever been sexually assaulted?",
-    // 2024!!
+    // 2025
   });
 
   sota.barChart({
@@ -2953,7 +2953,7 @@ window.onload = () => {
     title: "Zyn Usage",
     subtitle:
       "Have you ever used an oral nicotine packet (commonly referred to as a Zyn)?",
-    // 2024!!
+    // 2025
   });
 
   sota.barChart({
@@ -2963,7 +2963,7 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     title: "Marijuana",
     subtitle: "Have you ever used any form of marijuana?",
-    // 2024!!
+    // 2025
   });
 
   sota.columnChart({
@@ -2991,11 +2991,11 @@ window.onload = () => {
     section: "drugs",
     dataFile: "assets/data/drugs/99-drug_frequency",
     displayPercentage: true,
-    totalResp: 822,
+    totalResp: 765,
     title: "Drug habits",
     subtitle:
       "How often do you consume recreational drugs or alcohol on campus?",
-    // 2024!!
+    // 2025
   });
 
   // sota.bigNumber({
@@ -3051,11 +3051,11 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "drugs",
-    number: "83.6%",
+    number: "67.7%",
     title: "normalization of drugs and alcohol",
     subtitle:
       "of respondents believe that the use of recreational drugs or alcohol is normalized at Andover.",
-  }); // 2024!!
+  }); // 2025
 
   sota.pieChart({
     section: "drugs",
@@ -3251,14 +3251,14 @@ window.onload = () => {
   });
 
   // ----- WELLNESS!! <3 ------
-// TODO:  CAFFEEINE
+// TODO:  add CAFFEEINE quystion and other new questoins 
 
   sota.bigNumber({
     section: "wellness",
     title: "sleep",
-    number: "6.94",
+    number: "6.97",
     subtitle: "average hours of sleep per night of an Andover student.",
-    // 2023!!
+    // 2025
   });
 
   sota.columnChart({
@@ -3317,7 +3317,7 @@ window.onload = () => {
     title: "neurodivergence",
     number: "144",
     subtitle: "respondents consider themselves neurodivergent.",
-    // 2023!
+    // 2025
   });
 
   sota.stackedBarChart({
@@ -3335,14 +3335,14 @@ window.onload = () => {
   sota.bigNumber({
     section: "wellness",
     title: "bullying & hazing",
-    number: "121",
+    number: "93",
     subtitle: "respondents have been bullied or hazed while at Andover",
-    // 2023!!
+    // 2025!
   });
 
   sota.pieChart({
     section: "wellness",
-    dataFile: "assets/data/wellness/bullied-hazed",
+    dataFile: "assets/data/wellness/52-hazed",
     showLegend: true,
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
@@ -3481,14 +3481,14 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.bigNumber({
-    section: "wellness",
-    title: "Adequate Recources",
-    number: "27.5%",
-    subtitle:
-      "less respondents believe that the resources provided by the Rebecca M. Sykes Wellness Center are sufficient compared to last year (2022).",
-    // 2023!!
-  });
+  // sota.bigNumber({
+  //   section: "wellness",
+  //   title: "Adequate Recources",
+  //   number: "27.5%",
+  //   subtitle:
+  //     "less respondents believe that the resources provided by the Rebecca M. Sykes Wellness Center are sufficient compared to last year (2022).",
+  //   // 2023!!
+  // });
 
   sota.stackedBarChart({
     section: "wellness",
@@ -3515,10 +3515,10 @@ window.onload = () => {
   sota.bigNumber({
     section: "wellness",
     title: "ADD/ADHD",
-    number: "272",
+    number: "228",
     subtitle:
       "respondents have or would like to seek an evaluation for ADD/ADHD.",
-    // 2023!!
+    // 2025
   });
 
   sota.stackedColumnChart({
