@@ -536,7 +536,7 @@ window.onload = () => {
 
   sota.stackedBarChart({
     section: "general",
-    dataFile: "assets/data/general/socioeconomicXvarsity",
+    dataFile: "assets/data/general/incomeXvarsity",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     showLegend: false,
