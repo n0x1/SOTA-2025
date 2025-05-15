@@ -511,18 +511,18 @@ window.onload = () => {
   sota.columnChart({
     section: "general",
     dataFile: "assets/data/general/23-financial_aid",
-    totalResp: 852,
+    totalResp: 877,
     title: "Financial Aid",
     subtitle: "Are you on any form of financial aid?",
-    // 2024!!
+    // 2025
   });
 
   sota.bigNumber({
     section: "general",
-    number: "44.5%",
+    number: "46.2%",
     title: "Financial aid",
     subtitle: "of respondents are on financial aid provided by Andover.",
-    // 2024!!
+    // 2025
   });
 
   sota.pieChart({
@@ -531,7 +531,7 @@ window.onload = () => {
     // shapeFile: "assets/svgs/varsityjacket",
     title: "Varsity Athletics",
     subtitle: "Are you a varsity athlete?",
-    // 2024!!
+    // 2025
   });
 
   sota.stackedBarChart({
