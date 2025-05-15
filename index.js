@@ -1019,7 +1019,7 @@ window.onload = () => {
     subtitle:
       "Whether respondents believe people should have the right to have an abortion correlated to their gender identity. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
     // 2024!!
-  });
+  }); // todo
 
   sota.stackedBarChart({
     section: "politics",
@@ -1902,25 +1902,25 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.pieChart({
-    section: "school",
-    dataFile: "assets/data/school/disability",
-    sorted: false,
-    showLegend: true,
-    title: "Learning Disabilities",
-    subtitle: "Do you have a disability that affects your learning?",
-    margin: margin,
-    // 2023!!
-  });
+  // sota.pieChart({
+  //   section: "school",
+  //   dataFile: "assets/data/school/disability",
+  //   sorted: false,
+  //   showLegend: true,
+  //   title: "Learning Disabilities",
+  //   subtitle: "Do you have a disability that affects your learning?",
+  //   margin: margin,
+  //   // 2023!!
+  // });
 
-  sota.bigNumber({
-    section: "school",
-    number: "10.7%",
-    title: "Learning Disability",
-    subtitle:
-      "of respondents have a disability/disorder/impairment that affects their learning.",
-    // 2025
-  });
+  // sota.bigNumber({
+  //   section: "school",
+  //   number: "10.7%",
+  //   title: "Learning Disability",
+  //   subtitle:
+  //     "of respondents have a disability/disorder/impairment that affects their learning.",
+  //   // 2025 not
+  // });
 
   sota.pieChart({
     section: "school",
@@ -1933,16 +1933,16 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.pieChart({
-    section: "school",
-    dataFile: "assets/data/school/andover-accomodations",
-    sorted: false,
-    showLegend: true,
-    title: "Andover Accomodations",
-    subtitle:
-      "Do you think Andover adequately accommodates students with disabilities that affect their learning?",
-    // 2023!!
-  });
+  // sota.pieChart({
+  //   section: "school",
+  //   dataFile: "assets/data/school/andover-accomodations",
+  //   sorted: false,
+  //   showLegend: true,
+  //   title: "Learning Accomodations",
+  //   subtitle:
+  //     "Do you think Andover adequately accommodates students with disabilities that affect their learning?",
+  //   // 2025 see correlation below
+  // });
 
   sota.stackedBarChart({
     section: "school",
@@ -1950,10 +1950,10 @@ window.onload = () => {
     labelStyle: "onBar",
     displayPercentage: true,
     groupLabelStyle: "onBar",
-    showLegend: true,
+    showLegend: false,
     title:
-      "Do you think Andover adequately accommodates students with learning disabilities?",
-      // 2022!!
+      "Do you think Andover adequately accommodates students with disabilities that affect their learning?",
+      // 2025!
   });
 
   // sota.multiLineGraph({
