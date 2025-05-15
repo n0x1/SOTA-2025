@@ -2,7 +2,7 @@
 
 // All blurbs are from 2024; put in to reflect accurate data
 // Correlation data depends on data being entered into the CSVs So wont work until andres done
-
+// TODO update blurbs to match in slack ones
 sota.sotaConfig.sections = [
   {
     slug: "general",
@@ -105,7 +105,7 @@ sota.sotaConfig.sections = [
     name: "Campus Culture",
     colors: ["#762670", "#945E98", "#A77FAD", "#BC98B9", "#D9C6D8"],
     blurb:
-      "As Dr. Raynard Kington nears the end of his fifth year as Andover’s Head of School (HOS), TODO % of students approved of the work Kington was doing for the students, while only TODO % of students thought Kington connected with the student body. TODO % of students believed Andover should divest from fossil fuel companies, and 17.5% of students believed Andover does enough to combat climate change. 30.7% of students thought Andover's anti-racist work is sufficient.",
+      "As Dr. Raynard Kington nears the end of his fifth year as Andover’s Head of School (HOS), x % of students approved of the work Kington was doing for the students, while only x % of students thought Kington connected with the student body. TODO % of students believed Andover should divest from fossil fuel companies, and 17.5% of students believed Andover does enough to combat climate change. 30.7% of students thought Andover's anti-racist work is sufficient.",
   },
   {
     slug: "diversity",
@@ -312,7 +312,7 @@ window.onload = () => {
 
   sota.barChart({
     section: "general",
-    dataFile: "assets/data/general/guardian-residence",
+    dataFile: "assets/data/general/9-guardian-residence",
     totalResp: 850,
     displayPercentage: true,
     title: "Parent and Guardian Residence",
@@ -507,8 +507,9 @@ window.onload = () => {
     showLegend: false,
     title: "Income & Repeating Grade",
     subtitle: "Net income compared to respondents who have repeated grades.",
-    // 2025!!
+    // for 2025 TODO check if this is in drive
   }); //better if 2 pie charts
+
   // sota.stackedBarChart({
   //   section: "general",
   //   dataFile: "assets/data/general/socioeconomicXgrade",
@@ -848,7 +849,7 @@ window.onload = () => {
 
     sota.stackedBarChart({
     section: "politics",
-    dataFile: "assets/data/politics/reverse_racismXyear.csv",
+    dataFile: "assets/data/politics/reverse_racismXyear",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     displayPercentage: true,
@@ -858,12 +859,12 @@ window.onload = () => {
     title: "Reverse Racism & Class Year",
     subtitle:
       "Whether respondents believe in reverse racism based on their class year.",
-    // 2025!
+    // 2025 TODO
   });
 
     sota.stackedBarChart({
     section: "politics",
-    dataFile: "assets/data/politics/legacysuppXlegacyandover.csv",
+    dataFile: "assets/data/politics/legacysuppXlegacyandover",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     displayPercentage: true,
@@ -878,7 +879,7 @@ window.onload = () => {
 
     sota.stackedBarChart({
     section: "politics",
-    dataFile: "assets/data/politics/DEIXrace.csv",
+    dataFile: "assets/data/politics/DEIXrace",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     displayPercentage: true,
@@ -893,7 +894,7 @@ window.onload = () => {
 
     sota.stackedBarChart({
     section: "politics",
-    dataFile: "assets/data/politics/DEIXyear.csv",
+    dataFile: "assets/data/politics/DEIXyear",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     displayPercentage: true,
@@ -908,7 +909,7 @@ window.onload = () => {
 
       sota.stackedBarChart({
     section: "politics",
-    dataFile: "assets/data/politics/DEIXAA.csv",
+    dataFile: "assets/data/politics/DEIXAA",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     displayPercentage: true,
@@ -1494,17 +1495,17 @@ window.onload = () => {
   })
 
 
-  sota.pieChart({
-    section: "campus",
-    dataFile: "assets/data/campus/134-environment_impact",
-    sorted: false,
-    title: "climate education",
-    // pieRad: 100,
-    margin: margin,
-    subtitle:
-      "Do you feel that environmental issues (global warming, water, and air pollution, etc.) directly impact your life?",
-    // 2024!!
-  });
+  // sota.pieChart({
+  //   section: "campus",
+  //   dataFile: "assets/data/campus/134-environment_impact",
+  //   sorted: false,
+  //   title: "climate education",
+  //   // pieRad: 100,
+  //   margin: margin,
+  //   subtitle:
+  //     "Do you feel that environmental issues (global warming, water, and air pollution, etc.) directly impact your life?",
+  //   // 2024!!
+  // });
 
   sota.pieChart({
     section: "campus",
@@ -1516,16 +1517,16 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.pieChart({
-    section: "campus",
-    dataFile: "assets/data/campus/136-divestfossilfuel",
-    sorted: false,
-    title:
-      "Do you believe that Andover should divest from fossil fuel companies?",
-    subtitle:
-      'Divestment is the act of "taking money away from where you have invested it" (Oxford Dictionaries).',
-    // 2024!!
-  });
+  // sota.pieChart({
+  //   section: "campus",
+  //   dataFile: "assets/data/campus/136-divestfossilfuel",
+  //   sorted: false,
+  //   title:
+  //     "Do you believe that Andover should divest from fossil fuel companies?",
+  //   subtitle:
+  //     'Divestment is the act of "taking money away from where you have invested it" (Oxford Dictionaries).',
+  //   // 2024!!
+  // });
 
   sota.stackedBarChart({
     section: "campus",
@@ -2642,12 +2643,12 @@ window.onload = () => {
 
   sota.pieChart({
     section: "sex",
-    dataFile: "assets/data/sex/75-ever_hookedup",
+    dataFile: "assets/data/sex/74-participate_hookup",
     displayPercentage: true,
-    title: ' "Hooking-up"',
+    title: '"Hooking-up"',
     subtitle:
-      "Have you ever “hooked up” with someone you were not in a committed relationship with?",
-    // 2024!!
+      "Have you ever felt pressured by your peers to participate in Andover's hook-up culture",
+    // 2025!!
   });
 
   sota.bigNumber({
@@ -3218,7 +3219,7 @@ window.onload = () => {
 
   sota.barChart({
     section: "drugs",
-    dataFile: "assets/data/drugs/107-location",
+    dataFile: "assets/data/drugs/107-druglocation",
     displayPercentage: true,
     totalResp: 820,
     title: "location",
@@ -3479,7 +3480,7 @@ window.onload = () => {
 
   sota.pieChart({
     section: "wellness",
-    dataFile: "assets/data/wellness/selfharm",
+    dataFile: "assets/data/wellness/57-self_harm",
     showLegend: true,
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
@@ -3674,18 +3675,18 @@ window.onload = () => {
     totalResp: 765,
     title: "support systems",
     subtitle: "What is your mental and/or emotional support system on campus?",
-    // 2023!!
+    // 2025!!
   });
 
-  sota.pieChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/59-adequate_support",
-    title: "Adequate Resources",
-    sorted: false,
-    subtitle:
-      "Do you feel as though you have an adequate mental and/or emotional support system on campus?",
-    // 2023!!
-  });
+  // sota.pieChart({
+  //   section: "wellness",
+  //   dataFile: "assets/data/wellness/59-adequate_support",
+  //   title: "Adequate Resources",
+  //   sorted: false,
+  //   subtitle:
+  //     "Do you feel as though you have an adequate mental and/or emotional support system on campus?",
+  //   // 2023!!
+  // });
 
   sota.pieChart({
     section: "wellness",
