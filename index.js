@@ -839,7 +839,7 @@ window.onload = () => {
     title: "Reverse Racism & Class Year",
     subtitle:
       "Whether respondents believe in reverse racism based on their class year.",
-    // 2024!
+    // 2025!
   });
 
     sota.stackedBarChart({
@@ -854,7 +854,7 @@ window.onload = () => {
     title: "Legacy at Andover & Support for Legacy Admissions",
     subtitle:
       "Whether students have legacy status at Andover correlated with support for legacy admissions.",
-    // 2024!
+    // 2025!
   });
 
     sota.stackedBarChart({
@@ -869,7 +869,7 @@ window.onload = () => {
     title: "Support for DEI Correlated with Race",
     subtitle:
       "Percentage of students of each race that support DEI initiatives",
-    // 2024!
+    // 2025!
   });
 
     sota.stackedBarChart({
@@ -884,7 +884,22 @@ window.onload = () => {
     title: "Support for DEI Correlated with Class Year",
     subtitle:
       "Percentage of students of each grade that support DEI initiatives",
-    // 2024!
+    // 2025!
+  });
+
+      sota.stackedBarChart({
+    section: "politics",
+    dataFile: "assets/data/politics/DEIXAA.csv",
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    inputIsPercentage: false,
+    sorted: false,
+    showLegend: false,
+    title: "Support for DEI Correlated with Support for Affirmative Action",
+    subtitle:
+      "Percentage of students who support affirmative action that support DEI initiatives",
+    // 2025!
   });
 
   sota.columnChart({
