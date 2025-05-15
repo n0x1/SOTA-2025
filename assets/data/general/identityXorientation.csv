@@ -1,9 +1,9 @@
-group,Man,Woman, Agender, Nonbinary, Genderfluid, Questioning, Genderqueer
-"Asexual",5,6, 1, 1, 1, 0, 0
-"Bisexual",19,74,1,1,2,2,2
-"Demisexual",0,1,0,1,0,0,0
-"Heterosexual",318,284,0,0,0,0,0
-"Homosexual",11,16,0,1,0,1,0
-"Pansexual",2,8,0,0,0,0,0
-"Queer",2,15,1,4,1,0,0
-"Questioning",0,0,0,0,0,8,0
+group,Man,Woman
+"Asexual",4,8
+"Bisexual",11,72
+"Demisexual",3,1
+"Heterosexual",326,314
+"Homosexual",15,14
+"Pansexual",1,7
+"Queer",1,15
+"Questioning",3,7
