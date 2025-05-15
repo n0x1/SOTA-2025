@@ -497,16 +497,16 @@ window.onload = () => {
     // 2024!!
   }); //better if 2 pie charts
 
-  sota.stackedBarChart({
-    section: "general",
-    dataFile: "assets/data/general/socioeconomicXgrade",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    showLegend: false,
-    title: "Income & Repeating Grade",
-    subtitle: "Net income compared to respondents who have repeated grades.",
-    // 2024!!
-  }); //better if 2 pie charts
+  // sota.stackedBarChart({
+  //   section: "general",
+  //   dataFile: "assets/data/general/socioeconomicXgrade",
+  //   labelStyle: "onBar",
+  //   groupLabelStyle: "onBar",
+  //   showLegend: false,
+  //   title: "Income & Repeating Grade",
+  //   subtitle: "Net income compared to respondents who have repeated grades.",
+  //   // 2024!!
+  // }); //better if 2 pie charts
 
   sota.columnChart({
     section: "general",
