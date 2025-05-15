@@ -1374,7 +1374,15 @@ window.onload = () => {
   //   // 2023!!
   // });
 
-  // TODO: Add day on bar chart what days on from assets/data/campus/125-dayson
+
+  sota.barChart({
+    section: "campus",
+    dataFile: "assets/data/campus/125-dayson",
+    showPercentage: true,
+    title: "Days \"On\"",
+    subtitle: "Which of the following days do you think Andover should have a “day on” for similar to MLK day)? Check all that apply."
+    // 2025!!
+  })
 
   sota.pieChart({
     section: "campus",
@@ -1382,7 +1390,7 @@ window.onload = () => {
     sorted: false,
     title:
       "Do you think that Andover prioritizes athletics (compared to music, art, robotics, etc.)?",
-    // 2025
+    // 2025!!
   });
 
   sota.stackedBarChart({
