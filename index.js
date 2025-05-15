@@ -826,6 +826,20 @@ window.onload = () => {
       "Whether respondents believe in reverse racism compared to their race. Editor’s Note: Correlated statistics from respondents whose races are “Indigenous Peoples of the Americas” and “Native Hawaiian or Pacific Islander” have been removed in an effort to protect the complete anonymity of these respondents",
     // 2024!
   });
+    sota.stackedBarChart({
+    section: "politics",
+    dataFile: "assets/data/politics/reverse_racismXyear.csv",
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    inputIsPercentage: false,
+    sorted: false,
+    showLegend: false,
+    title: "Reverse Racism & Class Year",
+    subtitle:
+      "Whether respondents believe in reverse racism based on their class year.",
+    // 2024!
+  });
 
   sota.columnChart({
     section: "politics",
