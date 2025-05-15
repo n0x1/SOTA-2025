@@ -584,7 +584,13 @@ window.onload = () => {
 
   // --- POLITICS!! --
 
-  //TODO: DEI
+  sota.pieChart({
+    section: "politics",
+    dataFile: "assets/data/politics/40-dei",
+    sorted: false,
+    title: "DEI Support",
+    subtitle: "Do you support Diversity, Equity and Inclusion (DEI) programs in the workplace and educational institutions — “a set of values and related policies and practices focused on establishing a group culture of equitable and inclusive treatment and on attracting and retaining a diverse group of participants, including people who have historically been excluded or discriminated against” (Merriam-Webster Dictionary)?"
+  })
 
   sota.pieChart({
     section: "politics",
@@ -1461,6 +1467,25 @@ window.onload = () => {
     // 2023!!
   });
 
+  sota.barChart({
+    section: "campus",
+    dataFile: "assets/data/campus/130-cellphoneReg",
+    showPercentage: true,
+    title: "Cell Phone Regulations",
+    subtitle: "Do you believe there should be more regulations surrounding cell phone usage, through a campus cell phone policy?"
+    // 2025!
+  })
+
+  sota.barChart({
+    section: "campus",
+    dataFile: "assets/data/campus/129-school_spirit",
+    showPercentage: true,
+    title: "School Spirit",
+    subtitle: "Do you believe that Andover students have school spirit?"
+    // 2025!
+  })
+
+
   sota.pieChart({
     section: "campus",
     dataFile: "assets/data/campus/134-environment_impact",
@@ -1976,12 +2001,12 @@ window.onload = () => {
 
   // --- DISCIPLINE!! ---
 
-  sota.bigNumber({
+  sota.bigNumber({ 
     section: "discipline",
     number: "13.3%",
     title: "Major Discipline Violation",
     subtitle:
-      "of respondents have commited a major discipline violation without being caught.",
+      "of respondents have commited a major disciplinary violation without being caught.",
     margin: margin,
     // 2024!!
   });
@@ -2195,15 +2220,15 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.pieChart({
+  sota.barChart({
     section: "discipline",
     dataFile: "assets/data/discipline/162-artificialintelligence",
-    sorted: false,
+    showPercentage: false,
     title: "Artificial Intelligence",
     margin: margin,
     subtitle:
-      "Have you ever used Artifical Intelligence for an academic assignment without explicit permission?",
-    // 2024!!
+      "How often do you use AI for an academic assignment without explicit permission from the instructor?",
+    // 2025!!
   });
 
   sota.stackedBarChart({
@@ -3251,7 +3276,6 @@ window.onload = () => {
   });
 
   // ----- WELLNESS!! <3 ------
-// TODO:  add CAFFEEINE quystion and other new questoins 
 
   sota.bigNumber({
     section: "wellness",
@@ -3312,9 +3336,18 @@ window.onload = () => {
     // 2023!!
   });
 
+
+  sota.barChart({
+    section: "wellness",
+    dataFile: "assets/data/wellness/47-caffeine",
+    title: "Caffeine Usage",
+    displayPercentage: true,
+    subtitle: "If you consume caffeine (coffee, energy drinks, soda, tea, etc.) during the school year, on average, how frequently do you do so?",
+    //2025
+  })
   sota.bigNumber({
     section: "wellness",
-    title: "neurodivergence",
+    title: "Neurodivergence",
     number: "144",
     subtitle: "respondents consider themselves neurodivergent.",
     // 2025
@@ -3501,6 +3534,8 @@ window.onload = () => {
       "Do you think that the mental health and counseling resources provided by the Rebecca M. Sykes Wellness Center are sufficient?",
     // 2022!!
   });
+
+
 
   sota.customBarChart({
     section: "wellness",
