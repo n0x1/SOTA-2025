@@ -1,6 +1,8 @@
 // const { tryGetPreviewData } = require("next/dist/server/api-utils");
 
-// All blurbs are from 2024; rewrite to reflect accurate data
+// All blurbs are from 2024; put in to reflect accurate data
+// Correlation data depends on data being entered into the CSVs So wont work until andres done
+
 sota.sotaConfig.sections = [
   {
     slug: "general",
@@ -344,7 +346,7 @@ window.onload = () => {
     title: "Legacy",
     subtitle:
       "of respondents have at least one immediate family member who is currently attending or has previously attended Andover.",
-    // 2024!!
+    // 2025!!
   });
 
   sota.stackedBarChart({
@@ -425,7 +427,7 @@ window.onload = () => {
   sota.columnChart({
     section: "general",
     dataFile: "assets/data/general/18-race",
-    totalResp: 1052,
+    totalResp: TODO,
     title: "What is your race?",
     subtitle:
       "Editor’s Note: Respondents were given the option to select more than one answer if applicable.",
@@ -455,12 +457,12 @@ window.onload = () => {
   sota.barChart({
     section: "general",
     dataFile: "assets/data/general/20-religion",
-    totalResp: 850,
+    totalResp: TODO,
     displayPercentage: true,
     title: "With which religion/faith system do you currently identify with?",
     subtitle:
       "Editor's Note: Respondents were given the option to select more than one answer if applicable.",
-    // 2024!!
+    // 2025!!
   });
 
   sota.barChart({
@@ -494,9 +496,19 @@ window.onload = () => {
     title: "Perceived SEC & Income",
     subtitle:
       "Perceived socioeconomic class compared to income of respondents.",
-    // 2024!!
+    // 2025!!
   }); //better if 2 pie charts
 
+  sota.stackedBarChart({
+    section: "general",
+    dataFile: "assets/data/general/socioeconomicXgrade",
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    showLegend: false,
+    title: "Income & Repeating Grade",
+    subtitle: "Net income compared to respondents who have repeated grades.",
+    // 2025!!
+  }); //better if 2 pie charts
   // sota.stackedBarChart({
   //   section: "general",
   //   dataFile: "assets/data/general/socioeconomicXgrade",
@@ -531,7 +543,8 @@ window.onload = () => {
     // shapeFile: "assets/svgs/varsityjacket",
     title: "Varsity Athletics",
     subtitle: "Are you a varsity athlete?",
-    // 2025
+    // 2025 
+    // TODO: CHECK SVG
   });
 
   sota.stackedBarChart({
@@ -542,7 +555,7 @@ window.onload = () => {
     showLegend: false,
     title: "Income & Varsity",
     subtitle: "Net income compared to respondents who are varsity athletes.",
-    // 2024!!
+    // 2025!!
   }); //better if 2 pie charts
 
   sota.stackedBarChart({
@@ -556,7 +569,7 @@ window.onload = () => {
     title: "Varsity & Race",
     subtitle:
       "Races of respondents who are Varsity Athletes. Editor's Note: Not all races were included due to the small number of responses in those categories.",
-    // 2024!
+    // 2025!
   });
 
   //  sota.pieChart({
@@ -576,21 +589,21 @@ window.onload = () => {
   sota.pieChart({
     section: "politics",
     dataFile: "assets/data/politics/24-political_affiliation",
-    totalResp: 883,
+    totalResp: 821,
     sorted: false,
     title: "Political Affiliation",
     subtitle: "What is your political leaning?",
-    // 2024!!
+    // 2025
   });
 
   sota.pieChart({
     section: "politics",
     dataFile: "assets/data/politics/politicalparty",
-    totalResp: 788,
+    totalResp: 821,
     sorted: false,
     title: "Political Party",
     subtitle: "Do you identify with a United States political party?",
-    // 2024!!
+    // 2025
   });
 
   sota.stackedBarChart({
@@ -605,7 +618,7 @@ window.onload = () => {
     title: "Gender & Affiliation",
     subtitle:
       "Gender makeup of respondents correlated with their political affliliation. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2024!
+    // 2025
   });
 
   sota.stackedBarChart({
@@ -619,7 +632,7 @@ window.onload = () => {
     title: "Leadership & Affiliation",
     subtitle:
       "Respondents who are a student leader correlated with their political affliliation.",
-    // 2024!!
+    // 2025 
   });
   // sota.stackedBarChart({
   //   section: "politics",
@@ -658,7 +671,7 @@ window.onload = () => {
     title: "Affiliation & Change",
     subtitle:
       "Whether respondents did or did not change beliefs by their political affiliations.",
-    // 2024!
+    // 2025
   });
 
   sota.stackedBarChart({
@@ -673,28 +686,28 @@ window.onload = () => {
     title: "Affiliation & Current Event",
     subtitle:
       "Respondents knowledge of current events correlated with their political affiliation",
-    // 2024!
+    // 2025
   });
 
   sota.pieChart({
     section: "politics",
     dataFile: "assets/data/politics/andover-leaning",
-    totalResp: 785,
+    totalResp: 820,
     sorted: false,
     title: "Andover's Politics",
     subtitle: "Do you think the Andover community has a political leaning?",
     margin: margin,
-    // 2023!!
+    // 2025
   });
 
   sota.pieChart({
     section: "politics",
     dataFile: "assets/data/politics/27-censorship",
     title: "Self-Censorship",
-    totalResp: 882,
+    totalResp: 819,
     subtitle:
       "While at Andover, have you ever felt the need to censor yourself due to your political leaning?",
-    // 2023!!
+    // 2025!
   });
 
   sota.stackedBarChart({
@@ -709,7 +722,7 @@ window.onload = () => {
     title: "Affiliation & Censorship",
     subtitle:
       "Whether respondents felt the need to censor themselves due to their political affiliations.",
-    // 2024!!
+    // 2025!
   });
 
   sota.pieChart({
@@ -718,13 +731,13 @@ window.onload = () => {
     sorted: false,
     title:
       "How informed do you believe you are about politics and/or current events?",
-    // 2023!!
+    // 2025!
   });
 
   sota.barChart({
     section: "politics",
     dataFile: "assets/data/politics/30-news_sources",
-    totalResp: 879,
+    totalResp: TODO,
     displayPercentage: true,
     title: "Staying Informed",
     subtitle: "How do you get your news?",
@@ -734,11 +747,11 @@ window.onload = () => {
   sota.barChart({
     section: "politics",
     dataFile: "assets/data/politics/29-news",
-    totalResp: 876,
+    totalResp: TODO,
     displayPercentage: true,
     title: "Getting Information",
     subtitle: "Where do you get your news?",
-    // 2023!!
+    // 2025!
   });
 
   sota.pieChart({
@@ -746,7 +759,7 @@ window.onload = () => {
     dataFile: "assets/data/politics/31-affirmative_action",
     title: "Affirmative Action",
     subtitle: "Do you support affirmative action in academic institutions?",
-    // 2023!!
+    //2025
   });
 
   sota.stackedBarChart({
@@ -796,11 +809,11 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "politics",
-    number: "34.4%",
+    number: "53%",
     title: '"Reverse Racism"',
     subtitle:
-      "of respondents believe that white people can experience racism, an increase from 2022's 31%.",
-    // 2023!!
+      "of respondents believe that white people can experience racism, an increase from 2024's 34.4%.",
+    // 2025
   });
 
   sota.barChart({
@@ -809,7 +822,7 @@ window.onload = () => {
     title: '"Reverse Racism"',
     subtitle:
       'Do you believe that white people can experience racism (colloquially known as "reverse racism")? ',
-    // 2023!!
+    // 2025
   });
 
   sota.stackedBarChart({
@@ -934,10 +947,10 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "politics",
-    number: "70.8%",
+    number: "69.3%",
     title: "Feminism",
     subtitle: "of respondents consider themselves feminists. ",
-    // 2023!!
+    // 2025
   });
 
   sota.stackedBarChart({
