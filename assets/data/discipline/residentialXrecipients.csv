@@ -1,3 +1,11 @@
-group,Gone through disciplinary system, Not gone through disciplinary system
-Boarding Student,222,363
-Day Student,57,153
+group,Yes,Should be harsher,Should be more lenient,Unsure
+"Dean's Letter/Response",36,15,44,34
+"Cluster Community Conference",9,1,12,4
+"Centralized Community Conference",5,1,5,2
+"Growth and Accountability Plan (GAP)",15,5,28,13
+"Second Growth and Accountability Plan (GAP2)",2,0,5,0
+"Suspension",1,0,2,0
+"Censure",2,4,3,1
+"Warning",6,5,11,11
+"Probation"0,2,4,2
+"None",85,72,57,335

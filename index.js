@@ -1742,7 +1742,7 @@ window.onload = () => {
     dataFile: "assets/data/school/111-gpa",
     maxVal: 156,
     title: "GPA",
-    subtitle: "What was your rounded Winter 2023-2024 GPA?",
+    subtitle: "What was your rounded Winter 2024-2025 GPA?",
     // 2023!!
   });
 
@@ -2119,8 +2119,8 @@ window.onload = () => {
     displayPercentage: true,
     title: "Discipline System & Recipients",
     subtitle:
-      "The effectiveness of the disciplinary system correlated with the respondents who have gone through the discipline system.",
-    // 2023!!
+      "Whether respondents believe the disciplinary system is effective correlated what disciplinary responses they have received.",
+    // 2025
   });
 
   sota.stackedBarChart({
@@ -2133,8 +2133,8 @@ window.onload = () => {
     displayPercentage: true,
     title: "Discipline System & Residential Status",
     subtitle:
-      "Respondents' residential statuses correlated with if they have received disciplinary action.",
-    // 2023!!
+      "Respondents' residential statuses correlated with any received disciplinary action.",
+    // 2025
   });
 
   sota.barChart({
@@ -2169,7 +2169,7 @@ window.onload = () => {
     title: "Privilege & Discipline",
     subtitle:
       "Whether respondents believe the disciplinary process favors those from privileged backgrounds correlated with their income.",
-    // 2023!!
+    // 2025!
   });
 
   // sota.stackedBarChart({
@@ -2238,7 +2238,7 @@ window.onload = () => {
     title: "Academic Integrity & Class Year",
     subtitle:
       "Whether respondents have committed academic integrity violations correlated with their class year.",
-    // 2023!!
+    // 2025!!
   });
 
   sota.barChart({
@@ -2251,6 +2251,23 @@ window.onload = () => {
     // 2025!!
   });
 
+  
+
+  sota.stackedBarChart({
+    section: "discipline",
+    dataFile: "assets/data/discipline/understandXclassyear",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    title: "Understanding the Process & Residential Status",
+    subtitle:
+      "Whether respondents understand the new disciplinary process correlated with their class year.",
+    // 2025
+  });
+
+
   sota.stackedBarChart({
     section: "discipline",
     dataFile: "assets/data/discipline/understandXresidential",
@@ -2262,7 +2279,7 @@ window.onload = () => {
     title: "Understanding the Process & Residential Status",
     subtitle:
       "Whether respondents understand the new disciplinary process correlated with their residential status.",
-    // 2023!!
+    // 2023!! TODO
   });
 
   // sota.stackedBarChart({
@@ -2321,8 +2338,22 @@ window.onload = () => {
     displayPercentage: true,
     title: "Use of Artificial Intelligence & Class Year",
     subtitle:
-      "Whether respondents have ever used Artificial Intelligence without permission correlated with their class year.",
-    // 2023!!
+      "How often respondents have ever used Artificial Intelligence without permission correlated with their class year.",
+    // 2025!!
+  });
+
+  sota.stackedBarChart({
+    section: "discipline",
+    dataFile: "assets/data/discipline/AIXGPA",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    title: "Use of Artificial Intelligence & GPA",
+    subtitle:
+      "How often respondents use Artificial Intelligence correlated with their Winter 2024-2025 GPA.",
+    // 2025!
   });
 
   // sota.stackedBarChart({
