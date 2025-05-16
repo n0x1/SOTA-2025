@@ -1761,11 +1761,11 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "school",
-    number: "5.40",
+    number: "5.45",
     title:
-      "Respondents who indentified as a man or woman had the same average GPA of",
+      "Respondents who indentified as a woman had an average Winter GPA higher than men of",
     subtitle:
-      "Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
+      "Respondents who identified as men had an average of 5.38.  Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
     // 2025 todo correlation
   });
 
