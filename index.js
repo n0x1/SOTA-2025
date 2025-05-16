@@ -36,7 +36,7 @@ sota.sotaConfig.sections = [
       "#CBC3E3",
     ],
     blurb:
-      "Of respondents, 98.1% indicated that they support the 'advocacy of equality of the sexes and the establishment of the political, social, and economic rights of the female sex' (Oxford English Dictionary). However, only 67.3% of students considered themselves to be a feminist. Of studnets, 84.1% believed gun control in the United States of America should be stricter. 76.1% of studnets indicated that they believe the school has not provided adequate education on Israel and Palestine. When asked about Andover's political leading, 89.7% of studnets thought that the community has a political leaning to the left, while only 3.2% thought that the community has a learning to the right.",
+      "Of respondents, 53.0% believe that white people can experience racism (colloquially known as reverse-racism), an increase from 2024’s 34.4%. At Andover, 38.1% of students support legacy admissions in academic institutions. 72.8% of students indicated that they support affirmative action in academic institutions. When asked about Diversity, Equity and Inclusion (DEI) programs, 51.5% of students indicated their support for such programs in the workplace and educational institutions. Of students, 52.5% of students believe that it should be easier to immigrate to the United States of America.",
   },
 
   {
@@ -44,7 +44,7 @@ sota.sotaConfig.sections = [
     name: "Education",
     colors: ["#812F54", "#AA7281", "#BF97A0", "#BF97A0", "#DCC5C3","#EEE2E1"],
     blurb:
-      "Andover students reported an average grade point average (GPA) of 5.42, 0.01 higher than last year's average, while the average time spent on homework daily remained the same at 3.8 hours. 78.1% of the Class of 2027 believed that attending Andover has a positive effect on college admissions compared to 68% of the Class of 2026 when they were Juniors. While the departments with the most percieved grading disparity remained similar compared to last year, 12.3% fewer respondents selected the Art Department.",
+      "Although 84.3% of respondents consider themselves happy at Andover, 32.1% of students wouldn’t want their children to attend Andover. 39.8% of students believe that attending Andover has positively affected their relationship with their family, a decrease from 2024’s 47.5%. Of the student body, 71.6% of students believe that there is an unreasonable grading disparity in the English department. Similarly, 69.5% of respondents believe that there is an unreasonable grading disparity in the History department. Of respondents, 51.2% have switched or attempted to switch teachers within the same course in order to obtain a better grade.",
   },
   {
     slug: "wellness",
@@ -60,7 +60,7 @@ sota.sotaConfig.sections = [
       ""
     ],
     blurb:
-      "Andover students sleep an average of 6.94 hours of sleep a night. Out of the total respondents, 82.1% generally consider themselves happy at Andover and 69.0% reported that they feel as if they have an adequate mental or emotional support system on campus. The average Andover studnet spends 2.46 hours per day on social media, with the most popular platform being Instagram at 91.5% student usage rate.",
+      "At Andover, students sleep an average of 6.99 hours a night. 74.4% of students feel as though they have an adequate mental and/or emotional support system on campus, an increase from 2024’s 69.0%. Of respondents, 45.2% included faculty/staff in their mental and/or emotional support system on campus, compared to 35.9% in 2024."
   },
 
   {
@@ -83,7 +83,7 @@ sota.sotaConfig.sections = [
       "#E9DDD0",
     ],
     blurb:
-      "At Andover, 55.4% of students have consumed alcohol recreationally, 30.2% have used a form of marijuana, 22.8% have used an e-cigarette or vaped a nicotine-based product, 16.8% have used tobacco products, 9.3% have used an oral nicotine packet, and 5.5% have used hallucinogens or hard drugs. For students who consume alcohol or drugs recreationally on campus, 10.3% consume on a weekly basis",
+      "At Andover, 58.2% of all students have consumed drugs or alcohol. 50.4% have consumed alcohol recreationally and 24.38% have used some form of marijuana. 67.7% of respondents think that the use of recreational drugs and alcohol is normalized at Andover, a decrease from 2024’s 78.6%. For students who consume recreational drugs or alcohol on campus, 24.6% consume on a monthly basis.",
   },
   {
     slug: "sex",
@@ -98,28 +98,28 @@ sota.sotaConfig.sections = [
       "#fbe7ec",
     ],
     blurb:
-      "At Andover, 39.8% of students have engaged in sexual activity — defined as digital, oral, anal, online, and vaginal sex. Of the respondents, 45.4% hav been or are currently in a committed relationship. For students who masturbate, 45.9% of students feel comfortable with telling friends; of those respondents, 70.0% were men and 30.0% were women. Since 2021, the percent of students who think Andover provides adequate sexual education has risen from 62.2% to 86.2%.",
+      "Of respondents, 35.5% of students have engaged in sexual activity — defined as digital, oral, anal, online, and/or vaginal sex. Although 37.0% of respondents think that Andover has provided an adequate sexual education, only 37% feel comfortable consulting with the Rebecca M. Sykes Wellness Center regarding sex-related resources. At Andover, 45.6% of students have been or are currently in a committed relationship. 28.7% of students say they consistently ask their partner for verbal consent.",
   },
   {
     slug: "campus",
     name: "Campus Culture",
     colors: ["#762670", "#945E98", "#A77FAD", "#BC98B9", "#D9C6D8"],
     blurb:
-      "As Dr. Raynard Kington nears the end of his fifth year as Andover’s Head of School (HOS), x % of students approved of the work Kington was doing for the students, while only x % of students thought Kington connected with the student body. TODO % of students believed Andover should divest from fossil fuel companies, and 17.5% of students believed Andover does enough to combat climate change. 30.7% of students thought Andover's anti-racist work is sufficient.",
+      "In Dr. Raynard Kington’s fifth year as Head of School (HOS), 33.2% of students believe that he connects with the student body, an increase from 2024’s 17.8%. At Andover, 66.7% of students think that the school promotes ideological diversity in its speakers, an increase from 2024’s 56.3%. Of non-Varsity athletes, 74.3% believe that Andover prioritizes athletics compared to music, art, and robotics. However, only 55.6% of Varsity athletes believe so. 33.8% of students believe that Andover’s anti-racist work is entirely sufficient.",
   },
   {
     slug: "diversity",
     name: "Community Diversity",
     colors: ["#279680", "#29AD97", "#78C4B1", "#AEDCCA", "#C8E7DD"],
     blurb:
-      "Day students compose 26.4% of the Andover student body; and 55.8% of the student body believed that day students are able to integrate enough with boarding students in the Andover community. Of respondents, 24.1% have felt discriminated against at Andover due to their race, and 20.7% of respondents have felt discriminated against due to their gender. When asked about the Equity, Balance, and Inclusion (EBI) curriculum, 15.3% of respondents think the EBI curriculum at Andover is effective in helping students become better community member, over 5% less than last year.",
+      "At Andover, only 11.2% of students believe that the Empathy, Balance, and Inclusion (EBI) curriculum is effective in helping students become better community members, a drop from 2024’s 15.3%. Of all respondents, 62.8% think that day students are able to integrate with boarding students, an increase from 2024’s 55.8%. While 22.0% of women have had their gender affect their level of comfort in the classroom, only 8.2% of men believe so.",
   },
   {
     slug: "discipline",
     name: "Discipline",
     colors: ["#B53432", "#C74F50", "#D47173", "#E4A8A6", "#F0D1CA"],
     blurb:
-      "In 2022, Andover changed its disciplinary process to the “Responses to Student Behaviors” process, and 68.6% of the student body understand the changes that have been implemented. 16.1% of all respondents believed that the new disciplinary system effectively responds to students who are caught breaking school rules. 64.0% of students think that the disciplinary system favors students of privileged backgrounds. When correlated with income, 88.9% of respondents whose net family income was less than $35,000 believe that the disciplinary system favors students of privileged backgrounds, while 57.7% of respondents whose net family income was greater than $1,000,000 believe that the disciplinary system favors students of privileged backgrounds.",
+      "Only 6.1% of students completely understand the new disciplinary system called Pathways. Of respondents, 38.2% have cheated on a test, quiz, or in-class assessment. 46.7% of the student body believes that the school’s disciplinary systems have favored students of privileged backgrounds. When correlated with income, 61.6% of respondents whose net family income is less than $35,000 believe that the disciplinary system favors students from privileged backgrounds, while 48.4% of respondents whose net family income is greater than $1,000,000 believe that the disciplinary system favors students from privileged backgrounds.",
   },
 
   // {
@@ -1766,7 +1766,7 @@ window.onload = () => {
       "Respondents who indentified as a woman had an average Winter GPA higher than men of",
     subtitle:
       "Respondents who identified as men had an average of 5.38.  Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2025 todo correlation
+    // 2025  
   });
 
  sota.stackedBarChart({
@@ -1779,7 +1779,7 @@ window.onload = () => {
     displayPercentage: true,
     title: "GPA and Gender",
     subtitle: "Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents."
-    // 2023!! TODO correlation
+    // 2023!! 
   });
 
   sota.stackedBarChart({
