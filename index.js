@@ -3774,17 +3774,17 @@ window.onload = () => {
   //   // 2023!!
   // });
 
-    sota.stackedBarChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/sykesmentalXcounselor",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "Counselor Usage & Sykes Mental Health Resources",
-    subtitle:
-      "Whether respondents have seen a counselor correlated with whether the resources at Sykes Wellness Center are sufficient.",
-    // 2025!!
-  });
+  //   sota.stackedBarChart({
+  //   section: "wellness",
+  //   dataFile: "assets/data/wellness/sykesmentalXcounselor",
+  //   showLegend: true,
+  //   labelStyle: "onBar",
+  //   groupLabelStyle: "onBar",
+  //   title: "Counselor Usage & Sykes Mental Health Resources",
+  //   subtitle:
+  //     "Whether respondents have seen a counselor correlated with whether the resources at Sykes Wellness Center are sufficient.",
+  //   // 2025!!
+  // });
 
     sota.stackedBarChart({
     section: "wellness",
