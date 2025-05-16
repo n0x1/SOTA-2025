@@ -1385,7 +1385,7 @@ window.onload = () => {
     dataFile: "assets/data/campus/125-dayson",
     showPercentage: true,
     title: "Days \"On\"",
-    subtitle: "Which of the following days do you think Andover should have a “day on” for similar to MLK day)? Check all that apply."
+    subtitle: "Which of the following days do you think Andover should have a “day on” for similar to MLK day)? Editor's note: Respondents were given the option to select more than one answer if applicable."
     // 2025!!
   })
 
