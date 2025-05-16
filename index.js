@@ -1496,6 +1496,63 @@ window.onload = () => {
     // 2025!
   })
 
+    sota.stackedBarChart({
+    section: "campus",
+    dataFile: "assets/data/campus/spiritXalchohol",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    inputIsPercentage: false,
+    displayPercentage: true,
+    title: "School Spirit & Alcohol",
+    subtitle:
+      "Respondents' opinions on whether Andover students have school spirit correlated with their drinking habits.",
+    // 2025!!
+  });
+
+    sota.stackedBarChart({
+    section: "campus",
+    dataFile: "assets/data/campus/spiritXyear",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    inputIsPercentage: false,
+    displayPercentage: true,
+    title: "School Spirit & Class Year",
+    subtitle:
+      "Respondents' opinions on whether Andover students have school spirit correlated with their class year.",
+    // 2025!!
+  });
+    sota.stackedBarChart({
+    section: "campus",
+    dataFile: "assets/data/campus/spiritXcluster",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    inputIsPercentage: false,
+    displayPercentage: true,
+    title: "School Spirit & Cluster",
+    subtitle:
+      "Respondents' opinions on whether Andover students have school spirit correlated with their cluster.",
+    // 2025!!
+  });
+    sota.stackedBarChart({
+    section: "campus",
+    dataFile: "assets/data/campus/phonesXsocialmedia",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    inputIsPercentage: false,
+    displayPercentage: true,
+    title: "Opinions On Cell Phone Policy & Social Media Usage",
+    subtitle:
+      "Respondents' opinions on whether Andover students have school spirit correlated with their daily social media usage in hours.",
+    // 2025!!
+  });
 
   // sota.pieChart({
   //   section: "campus",
