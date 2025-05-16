@@ -1018,7 +1018,7 @@ window.onload = () => {
     subtitle:
       "Whether respondents believe people should have the right to have an abortion correlated to their gender identity. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
     // 2024!!
-  }); // todo
+  }); 
 
   sota.stackedBarChart({
     section: "politics",
@@ -1052,15 +1052,17 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.pieChart({
+  sota.barChart({
     section: "politics",
     dataFile: "assets/data/politics/ceasefire",
     showLegend: true,
-    margin: largemargin,
+    groupLabelStyle:"aboveBar",
+    labelStyle:"aboveBar",
+    // margin: largemargin,
     title: "Israel-Palestine Ceasefire",
     subtitle:
       "Regarding an Israel and Gaza ceasefire, which of the following statements do you most agree with?",
-    // 2023!!
+    // 2025
   });
 
   sota.pieChart({
@@ -1759,12 +1761,12 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "school",
-    number: "5.42",
+    number: "5.40",
     title:
       "Respondents who indentified as a man or woman had the same average GPA of",
     subtitle:
       "Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!! TODO correlation
+    // 2025 todo correlation
   });
 
  sota.stackedBarChart({
