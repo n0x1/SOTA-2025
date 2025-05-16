@@ -1715,7 +1715,7 @@ window.onload = () => {
 
   sota.stackedBarChart({
     section: "school",
-    dataFile: "assets/data/school/GPAxsleep",
+    dataFile: "assets/data/school/GPAxsleep.csv",
     sorted: false,
     showLegend: true,
     labelStyle: "onBar",
@@ -1724,6 +1724,19 @@ window.onload = () => {
     title: "GPA and Sleep",
 
     // 2023!! TODO correlation
+  });
+
+    sota.stackedBarChart({
+    section: "school",
+    dataFile: "assets/data/school/GPAxrace.csv",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    title: "GPA and Race",
+
+    // 2025!! 
   });
 
   sota.multiLineGraph({
@@ -3644,6 +3657,18 @@ window.onload = () => {
     subtitle:
       "Whether respondents are happy at Andover correlated with their GPA. Editor's Note: Only data from the GPA range of 5.0 - 6.0 is used.",
     // 2023!!
+  });
+
+    sota.stackedBarChart({
+    section: "wellness",
+    dataFile: "assets/data/wellness/GPAXrelationship.csv",
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    title: "Happiness & GPA",
+    subtitle:
+      "Whether respondents are in a relationship correlated with their GPA. Editor's Note: Only data from the GPA range of 4.0 - 6.0 is used.",
+    // 2025!!
   });
 
   sota.stackedBarChart({
