@@ -2842,8 +2842,21 @@ window.onload = () => {
     subtitle:
       "Percentage of students who thought that their sexual education at Andover has been/is adequate.",
     inputIsPercentage: true,
-    // 2024!!
+    // 2025
   });
+
+  sota.stackedBarChart({
+    section: "sex",
+    dataFile: "assets/data/sex/sex_edXsexuality",
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    title: "Sexual Education & Sexuality",
+    subtitle: "Whether respondents think their sexual education at Andover is/has been adequate correlated with their sexuality.",
+    // 2025
+  });
+
+  
 
   // sota.stackedBarChart({
   //   section: "sex",
