@@ -3490,6 +3490,34 @@ window.onload = () => {
     subtitle: "If you consume caffeine (coffee, energy drinks, soda, tea, etc.) during the school year, on average, how frequently do you do so?",
     //2025
   })
+
+  sota.barChart({
+    section: "wellness",
+    dataFile: "assets/data/wellness/caffeineXyear",
+    title: "Caffeine Usage by Class Year",
+    displayPercentage: true,
+    subtitle: "Frequency of caffeine consumption by class year.",
+    //2025
+  })
+
+    sota.barChart({
+    section: "wellness",
+    dataFile: "assets/data/wellness/lonelinessXsykeswillingness",
+    title: "Loneliness & Sykes",
+    displayPercentage: true,
+    subtitle: "Loneliness by willingness to consult Sykes Mental Health Services.",
+    //2025
+  })
+
+    sota.barChart({
+    section: "wellness",
+    dataFile: "assets/data/wellness/socialmediaXGPA",
+    title: "Social Media & GPA",
+    displayPercentage: true,
+    subtitle: "Daily social media usage correlated with GPA.",
+    //2025
+  })
+
   sota.bigNumber({
     section: "wellness",
     title: "Neurodivergence",
@@ -3734,16 +3762,40 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.stackedBarChart({
+  // sota.stackedBarChart({
+  //   section: "wellness",
+  //   dataFile: "assets/data/wellness/mentalhealthXsykes",
+  //   showLegend: true,
+  //   labelStyle: "onBar",
+  //   groupLabelStyle: "onBar",
+  //   title: "Mental health diagnosis & sykes",
+  //   subtitle:
+  //     "Whether respondents who have had a mental health diagnosis correlated with whether the resources at Sykes Wellness Center are sufficient.",
+  //   // 2023!!
+  // });
+
+    sota.stackedBarChart({
     section: "wellness",
-    dataFile: "assets/data/wellness/mentalhealthXsykes",
+    dataFile: "assets/data/wellness/sykesmentalXcounselor",
     showLegend: true,
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
-    title: "Mental health diagnosis & sykes",
+    title: "Counselor Usage & Sykes Mental Health Resources",
     subtitle:
-      "Whether respondents who have had a mental health diagnosis correlated with whether the resources at Sykes Wellness Center are sufficient.",
-    // 2023!!
+      "Whether respondents have seen a counselor correlated with whether the resources at Sykes Wellness Center are sufficient.",
+    // 2025!!
+  });
+
+    sota.stackedBarChart({
+    section: "wellness",
+    dataFile: "assets/data/wellness/sykeswillingnessXyear",
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    title: "Willingness to Use Sykes Resources & Class Year",
+    subtitle:
+      "Whether respondents are willing to use the mental health resources at Sykes Wellness Center by Class Year.",
+    // 2025!!
   });
 
   sota.stackedBarChart({
