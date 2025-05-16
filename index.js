@@ -3642,7 +3642,7 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.pieChart({
+  sota.stackedBarChart({
     section: "wellness",
     dataFile: "assets/data/wellness/57-self_harm",
     showLegend: true,
