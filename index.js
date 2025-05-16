@@ -1726,7 +1726,7 @@ window.onload = () => {
 
   sota.stackedBarChart({
     section: "school",
-    dataFile: "assets/data/school/GPAxsleep.csv",
+    dataFile: "assets/data/school/GPAxsleep",
     sorted: false,
     showLegend: true,
     labelStyle: "onBar",
@@ -1739,7 +1739,7 @@ window.onload = () => {
 
     sota.stackedBarChart({
     section: "school",
-    dataFile: "assets/data/school/GPAxrace.csv",
+    dataFile: "assets/data/school/GPAxrace",
     sorted: false,
     showLegend: true,
     labelStyle: "onBar",
@@ -3675,7 +3675,7 @@ window.onload = () => {
 
     sota.stackedBarChart({
     section: "wellness",
-    dataFile: "assets/data/wellness/GPAXrelationship.csv",
+    dataFile: "assets/data/wellness/GPAXrelationship",
     showLegend: true,
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
