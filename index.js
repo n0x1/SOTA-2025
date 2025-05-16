@@ -57,7 +57,8 @@ sota.sotaConfig.sections = [
       "#CEDFA6",
       "#E3EFCE",
       "#BAE5AE",
-      ""
+      "#84d9a9",
+      "#88d1a8"
     ],
     blurb:
       "At Andover, students sleep an average of 6.99 hours a night. 74.4% of students feel as though they have an adequate mental and/or emotional support system on campus, an increase from 2024’s 69.0%. Of respondents, 45.2% included faculty/staff in their mental and/or emotional support system on campus, compared to 35.9% in 2024."
