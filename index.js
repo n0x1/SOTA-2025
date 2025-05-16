@@ -2108,6 +2108,20 @@ window.onload = () => {
       "Which of the following disciplinary consequences have you recieved?",
     // 2024!!
   });
+  
+  sota.stackedBarChart({
+    section: "discipline",
+    dataFile: "assets/data/discipline/residentialXrecipients",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    title: "Discipline System & Residential Status",
+    subtitle:
+      "Respondents' residential statuses correlated with any received disciplinary action.",
+    // 2025
+  });
 
   sota.stackedBarChart({
     section: "discipline",
@@ -2123,19 +2137,7 @@ window.onload = () => {
     // 2025
   });
 
-  sota.stackedBarChart({
-    section: "discipline",
-    dataFile: "assets/data/discipline/residentialXrecipients",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Discipline System & Residential Status",
-    subtitle:
-      "Respondents' residential statuses correlated with any received disciplinary action.",
-    // 2025
-  });
+
 
   sota.barChart({
     section: "discipline",
