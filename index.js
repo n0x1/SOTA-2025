@@ -350,7 +350,7 @@ window.onload = () => {
     // 2025!!
   });
 
-  sota.stackedBarChart({
+  sota.stackedColumnChart({
     section: "general",
     dataFile: "assets/data/general/legacyXincome",
     labelStyle: "onBar",
@@ -487,7 +487,7 @@ window.onload = () => {
     // 2025
   });
 
-  sota.stackedBarChart({
+  sota.stackedColumnChart({
     section: "general",
     dataFile: "assets/data/general/socioeconomicXincome0",
     labelStyle: "onBar",
@@ -710,11 +710,11 @@ window.onload = () => {
     // 2025
   });
 
-  sota.customBarChart({
+  sota.pieChart({
     section: "politics",
     dataFile: "assets/data/politics/27-censorship",
     title: "Self-Censorship",
-    shapeFile: "assets/svgs/pill-politics",
+    // shapeFile: "assets/svgs/pill-politics",
     totalResp: 819,
     subtitle:
       "While at Andover, have you ever felt the need to censor yourself due to your political leaning?",
@@ -1383,7 +1383,7 @@ window.onload = () => {
   // });
 
 
-  sota.barChart({
+  sota.columnChart({
     section: "campus",
     dataFile: "assets/data/campus/125-dayson",
     showPercentage: true,
@@ -3495,7 +3495,7 @@ window.onload = () => {
     //2025
   })
 
-  sota.stackedBarChart({
+  sota.stackedColumnChart({
     section: "wellness",
     dataFile: "assets/data/wellness/caffeineXyear",
     title: "Caffeine Usage by Class Year",
@@ -3504,7 +3504,7 @@ window.onload = () => {
     // 2025
   })
 
-    sota.stackedBarChart({
+    sota.stackedColumnChart({
     section: "wellness",
     dataFile: "assets/data/wellness/lonelinessXsykeswillingness",
     title: "Loneliness & Sykes",
