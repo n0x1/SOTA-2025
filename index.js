@@ -589,6 +589,7 @@ window.onload = () => {
     section: "politics",
     dataFile: "assets/data/politics/40-dei",
     totalResp: 821,
+    // shapeFile: "assets/svgs/pill-politics",
     sorted: false,
     title: "DEI Support",
     subtitle: "Do you support Diversity, Equity and Inclusion (DEI) programs in the workplace and educational institutions — “a set of values and related policies and practices focused on establishing a group culture of equitable and inclusive treatment and on attracting and retaining a diverse group of participants, including people who have historically been excluded or discriminated against” (Merriam-Webster Dictionary)?"
@@ -709,10 +710,11 @@ window.onload = () => {
     // 2025
   });
 
-  sota.pieChart({
+  sota.customBarChart({
     section: "politics",
     dataFile: "assets/data/politics/27-censorship",
     title: "Self-Censorship",
+    shapeFile: "assets/svgs/pill-politics",
     totalResp: 819,
     subtitle:
       "While at Andover, have you ever felt the need to censor yourself due to your political leaning?",
@@ -825,7 +827,7 @@ window.onload = () => {
     // 2025
   });
 
-  sota.barChart({
+  sota.pieChart({
     section: "politics",
     dataFile: "assets/data/politics/32-reverse_racism",
     title: '"Reverse Racism"',
@@ -1066,9 +1068,10 @@ window.onload = () => {
     // 2025
   });
 
-  sota.pieChart({
+  sota.customBarChart({
     section: "politics",
     dataFile: "assets/data/politics/drug-decriminalization",
+    shapeFile: "assets/svgs/pill-politics",
     title: "Decriminalization of Drugs",
     subtitle:
       "Do you believe that drugs should be decriminalized in the United States of America?",
