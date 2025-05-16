@@ -185,22 +185,7 @@ window.onload = () => {
     number: "75.2%",
     title: "",
     subtitle: "of the student body participated in this survey.",
-    // 25
-  });
-
-
-  sota.pieChart({
-    section: "general",
-    dataFile: "assets/data/general/1-class",
-    totalResp: 865,
-    displayPercentage: true,
-    sorted: false,
-    // shapeFile: "assets/svgs/graduationcap",
-    // shapeFile: "assets/svgs/graduationcap",
-    // shapeHeight: 100,
-    title: "WHAT CLASS ARE YOU IN?",
-    subtitle: "Editor’s note: Seven students did not select a class year.",
-    // 2025!!
+    // 2025
   });
 
   sota.pieChart({
@@ -208,7 +193,7 @@ window.onload = () => {
     dataFile: "assets/data/general/3-boarding",
     title: "Boarding vs. Day Students",
     subtitle: "What are you enrolled as?",
-    // 2024!!
+    // 2025!
   });
 
   sota.bigNumber({
@@ -239,6 +224,21 @@ window.onload = () => {
     title: "",
     subtitle: "students responded from the Class of 2025.",
     // 2025
+  });
+
+
+  sota.pieChart({
+    section: "general",
+    dataFile: "assets/data/general/1-class",
+    totalResp: 865,
+    displayPercentage: true,
+    sorted: false,
+    // shapeFile: "assets/svgs/graduationcap",
+    // shapeFile: "assets/svgs/graduationcap",
+    // shapeHeight: 100,
+    title: "WHAT CLASS ARE YOU IN?",
+    subtitle: "Editor’s note: Seven students did not select a class year.",
+    // 2025!!
   });
 
   sota.pieChart({
@@ -281,7 +281,7 @@ window.onload = () => {
     // 2025
   });
 
-  sota.pieChart({
+  sota.barChart({
     section: "general",
     dataFile: "assets/data/general/7-international-continent",
     sorted: false,
@@ -342,7 +342,7 @@ window.onload = () => {
   sota.bigNumber({
     section: "general",
     dataFile: "assets/data/general/12-legacy",
-    number: "38.10%",
+    number: "38.1%",
     title: "Legacy",
     subtitle:
       "of respondents have at least one immediate family member who is currently attending or has previously attended Andover.",
@@ -545,7 +545,6 @@ window.onload = () => {
     title: "Varsity Athletics",
     subtitle: "Are you a varsity athlete?",
     // 2025 
-    // TODO: CHECK SVG
   });
 
   sota.stackedBarChart({
