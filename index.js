@@ -3777,17 +3777,17 @@ window.onload = () => {
     // 2023!!
   });
 
-    sota.stackedBarChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/GPAXrelationship",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "Happiness & GPA",
-    subtitle:
-      "Whether respondents are in a relationship correlated with their GPA. Editor's Note: Only data from the GPA range of 4.0 - 6.0 is used.",
-    // 2025!!
-  });
+  //   sota.stackedBarChart({
+  //   section: "wellness",
+  //   dataFile: "assets/data/wellness/GPAXrelationship",
+  //   showLegend: true,
+  //   labelStyle: "onBar",
+  //   groupLabelStyle: "onBar",
+  //   title: "Happiness & GPA",
+  //   subtitle:
+  //     "Whether respondents are in a relationship correlated with their GPA. Editor's Note: Only data from the GPA range of 4.0 - 6.0 is used.",
+  //   // 2025!!
+  // });
 
   sota.stackedBarChart({
     section: "wellness",
