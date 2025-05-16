@@ -3485,10 +3485,11 @@ window.onload = () => {
   });
 
 
-  sota.barChart({
+  sota.pieChart({
     section: "wellness",
     dataFile: "assets/data/wellness/47-caffeine",
     title: "Caffeine Usage",
+    // shapeFile: "assets/svgs/coffee",
     displayPercentage: true,
     subtitle: "If you consume caffeine (coffee, energy drinks, soda, tea, etc.) during the school year, on average, how frequently do you do so?",
     //2025
