@@ -3277,7 +3277,7 @@ window.onload = () => {
     displayPercentage: true,
     title: "Use of Study Drugs & GPA",
     subtitle:
-      "Whether respondents use study drugs correlated with their GPA. Editor's Note: Only data from the GPA range of 5.0 - 6.0 is used.",
+      "Whether respondents use study drugs correlated with their GPA. Editor's Note: Only data from the GPA range of 4.0 - 6.0 is used.",
     // 2024!!
   });
 
