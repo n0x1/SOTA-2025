@@ -1088,46 +1088,46 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.stackedBarChart({
-    section: "politics",
-    dataFile: "assets/data/politics/firearmXnet",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    inputIsPercentage: true,
-    showLegend: true,
-    title: "Firearm ownership X net family income",
-    subtitle:
-      "Whether respondents own firearms correlated to net family income",
-    // 2024!!
-  });
+  // sota.stackedBarChart({
+  //   section: "politics",
+  //   dataFile: "assets/data/politics/firearmXnet",
+  //   labelStyle: "onBar",
+  //   groupLabelStyle: "onBar",
+  //   displayPercentage: true,
+  //   inputIsPercentage: true,
+  //   showLegend: true,
+  //   title: "Firearm ownership X net family income",
+  //   subtitle:
+  //     "Whether respondents own firearms correlated to net family income",
+  //   // 2024!!
+  // });
 
-  sota.stackedBarChart({
-    section: "politics",
-    dataFile: "assets/data/politics/firearmXaffiliation",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    inputIsPercentage: true,
-    showLegend: true,
-    title: "Firearm ownership X Political Affiliation",
-    subtitle:
-      "Whether respondents own firearms correlated to political affiliation",
-    // 2024!!
-  });
+  // sota.stackedBarChart({
+  //   section: "politics",
+  //   dataFile: "assets/data/politics/firearmXaffiliation",
+  //   labelStyle: "onBar",
+  //   groupLabelStyle: "onBar",
+  //   displayPercentage: true,
+  //   inputIsPercentage: true,
+  //   showLegend: true,
+  //   title: "Firearm ownership X Political Affiliation",
+  //   subtitle:
+  //     "Whether respondents own firearms correlated to political affiliation",
+  //   // 2024!!
+  // });
 
-  sota.stackedBarChart({
-    section: "politics",
-    dataFile: "assets/data/politics/firearmsXcommunity",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    inputIsPercentage: true,
-    showLegend: true,
-    title: "Firearm ownership X Community Type",
-    subtitle: "Whether respondents own firearms correlated to Community Type",
-    // 2024!!
-  });
+  // sota.stackedBarChart({
+  //   section: "politics",
+  //   dataFile: "assets/data/politics/firearmsXcommunity",
+  //   labelStyle: "onBar",
+  //   groupLabelStyle: "onBar",
+  //   displayPercentage: true,
+  //   inputIsPercentage: true,
+  //   showLegend: true,
+  //   title: "Firearm ownership X Community Type",
+  //   subtitle: "Whether respondents own firearms correlated to Community Type",
+  //   // 2024!!
+  // });
 
   sota.customBarChart({
     section: "politics",
@@ -1320,19 +1320,19 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.stackedBarChart({
-    section: "campus",
-    dataFile: "assets/data/campus/antiracismXyear",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Anti-Racism & Class Year",
-    subtitle:
-      "Respondents' opinions on whether Andover's anti-racism work is sufficient correlated with their class year.",
-    // 2023!!
-  });
+  // sota.stackedBarChart({
+  //   section: "campus",
+  //   dataFile: "assets/data/campus/antiracismXyear",
+  //   sorted: false,
+  //   showLegend: true,
+  //   labelStyle: "onBar",
+  //   groupLabelStyle: "onBar",
+  //   displayPercentage: true,
+  //   title: "Anti-Racism & Class Year",
+  //   subtitle:
+  //     "Respondents' opinions on whether Andover's anti-racism work is sufficient correlated with their class year.",
+  //   // 2023!!
+  // });
 
   sota.stackedBarChart({
     section: "campus",
