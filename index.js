@@ -3509,7 +3509,7 @@ window.onload = () => {
     //2025
   })
 
-    sota.barChart({
+    sota.stackedBarChart({
     section: "wellness",
     dataFile: "assets/data/wellness/socialmediaXGPA",
     title: "Social Media & GPA",
@@ -3546,7 +3546,7 @@ window.onload = () => {
     // 2025!
   });
 
-  sota.pieChart({
+  sota.stackedBarChart({
     section: "wellness",
     dataFile: "assets/data/wellness/52-hazed",
     showLegend: true,

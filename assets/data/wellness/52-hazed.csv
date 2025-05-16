@@ -1,2 +1,5 @@
-group,"Yes, bullied","Yes, hazed","Yes, bullied and hazed",No
-answer,53,19,21,721
+group,value
+"Yes, bullied",53
+"Yes, hazed",19
+"Yes, bullied and hazed",21
+No,721
