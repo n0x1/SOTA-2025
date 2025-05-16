@@ -1769,18 +1769,18 @@ window.onload = () => {
     // 2025  
   });
 
-//  sota.stackedBarChart({
-//     section: "school",
-//     dataFile: "assets/data/school/GPAxgender",
-//     sorted: false,
-//     showLegend: true,
-//     labelStyle: "onBar",
-//     groupLabelStyle: "onBar",
-//     displayPercentage: true,
-//     title: "GPA and Gender",
-//     subtitle: "Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents."
-//     // 2023!! 
-//   });
+ sota.stackedBarChart({
+    section: "school",
+    dataFile: "assets/data/school/gpaXgender",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    title: "GPA and Gender",
+    subtitle: "Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents."
+    // 2023!! 
+  });
 
   sota.stackedBarChart({
     section: "school",
@@ -1797,7 +1797,7 @@ window.onload = () => {
 
     sota.stackedBarChart({
     section: "school",
-    dataFile: "assets/data/school/GPAxrace",
+    dataFile: "assets/data/school/GPAXrace",
     sorted: false,
     showLegend: true,
     labelStyle: "onBar",
