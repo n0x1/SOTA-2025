@@ -3546,7 +3546,7 @@ window.onload = () => {
     // 2025!
   });
 
-  sota.stackedBarChart({
+  sota.pieChart({
     section: "wellness",
     dataFile: "assets/data/wellness/52-hazed",
     showLegend: true,
