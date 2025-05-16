@@ -1142,7 +1142,7 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.stackedColumnChart({
+  sota.stackedBarChart({
     section: "politics",
     dataFile: "assets/data/politics/affiliationXguns",
     labelStyle: "onBar",
@@ -1831,7 +1831,7 @@ window.onload = () => {
     // 2025!!
   });
 
-  sota.stackedBarChart({
+  sota.stackedColumnChart({
     section: "school",
     dataFile: "assets/data/school/collegexclassyear",
     sorted: false,
@@ -2235,7 +2235,7 @@ window.onload = () => {
   //   // 2023!!
   // });
 
-  sota.stackedBarChart({
+  sota.stackedColumnChart({
     section: "discipline",
     dataFile: "assets/data/discipline/integrityXclassyear",
     sorted: false,
