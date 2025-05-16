@@ -3098,7 +3098,6 @@ window.onload = () => {
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     displayPercentage: true,
-    inputIsPercentage: true,
     title: "Normalization of Drug Culture & Pressure to Take Drugs",
     subtitle:
       "Whether respondents believe drug culture has been normalized at Andover correlated with whether or not they have felt pressured to take drugs.",
