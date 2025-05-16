@@ -3491,16 +3491,16 @@ window.onload = () => {
     //2025
   })
 
-  sota.barChart({
+  sota.stackedBarChart({
     section: "wellness",
     dataFile: "assets/data/wellness/caffeineXyear",
     title: "Caffeine Usage by Class Year",
     displayPercentage: true,
     subtitle: "Frequency of caffeine consumption by class year.",
-    //2025
+    // 2025
   })
 
-    sota.barChart({
+    sota.stackedBarChart({
     section: "wellness",
     dataFile: "assets/data/wellness/lonelinessXsykeswillingness",
     title: "Loneliness & Sykes",
