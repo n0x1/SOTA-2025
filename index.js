@@ -2669,7 +2669,7 @@ window.onload = () => {
   sota.groupedBarChart({
     section: "sex",
     dataFile: "assets/data/sex/sexualactivityXgrade",
-    totalResp: { 2027: 143, 2026: 180, 2025: 192, 2024: 205 },
+    totalResp: {2028: 185, 2027: 244, 2026: 241, 2025: 195, },
     sorted: false,
     showLegend: true,
     labelStyle: "onBar",
@@ -2729,15 +2729,15 @@ window.onload = () => {
       "of respondents that believe Andover has a hook-up culture have felt pressured by peers to participate in it.",
     // 2024!!
   });
-  sota.pieChart({
-    section: "sex",
-    dataFile: "assets/data/sex/74-participate_hookup",
-    displayPercentage: true,
-    sorted: false,
-    title:
-      "Have you ever felt pressured by your peers to participate in Andover's hook-up culture?",
-    // 2024!!
-  });
+  // sota.pieChart({
+  //   section: "sex",
+  //   dataFile: "assets/data/sex/74-participate_hookup",
+  //   displayPercentage: true,
+  //   sorted: false,
+  //   title:
+  //     "Have you ever felt pressured by your peers to participate in Andover's hook-up culture?",
+  //   // 2024!!
+  // });
 
   // sota.bigNumber({
   //   section: "sex",
