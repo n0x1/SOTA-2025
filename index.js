@@ -1549,7 +1549,7 @@ window.onload = () => {
     displayPercentage: true,
     title: "Opinions On Cell Phone Policy & Social Media Usage",
     subtitle:
-      "Respondents' opinions on whether Andover students have school spirit correlated with their daily social media usage in hours.",
+      "Respondents' opinions on whether or not the school should enforce a cell phone policy correlated with their daily social media usage in hours.",
     // 2025!!
   });
 
