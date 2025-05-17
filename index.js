@@ -3079,20 +3079,20 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.stackedBarChart({
-    section: "drugs",
-    dataFile: "assets/data/drugs/normalizationXuse",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    inputIsPercentage: true,
-    title: "Normalization of Drug Culture & Substance Use",
-    subtitle:
-      "Whether respondents believe drug culture has been normalized at Andover correlated with substance use.",
-    // 2024!!
-  });
+  // sota.stackedBarChart({
+  //   section: "drugs",
+  //   dataFile: "assets/data/drugs/normalizationXuse",
+  //   sorted: false,
+  //   showLegend: true,
+  //   labelStyle: "onBar",
+  //   groupLabelStyle: "onBar",
+  //   displayPercentage: true,
+  //   inputIsPercentage: true,
+  //   title: "Normalization of Drug Culture & Substance Use",
+  //   subtitle:
+  //     "Whether respondents believe drug culture has been normalized at Andover correlated with substance use.",
+  //   // 2024!!
+  // });
 
     sota.stackedBarChart({
     section: "drugs",
