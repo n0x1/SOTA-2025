@@ -3344,7 +3344,7 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.pieChart({
+  sota.barChart({
     section: "drugs",
     dataFile: "assets/data/drugs/106-sold_drugs",
     displayPercentage: true,
