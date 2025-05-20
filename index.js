@@ -2108,7 +2108,7 @@ window.onload = () => {
   sota.columnChart({
     section: "discipline",
     dataFile: "assets/data/discipline/149-consequences",
-    totalResp: 690,
+    totalResp: 733,
     margin: margin,
     title:
       "Which of the following disciplinary consequences have you recieved?",
@@ -2148,7 +2148,7 @@ window.onload = () => {
   sota.barChart({
     section: "discipline",
     dataFile: "assets/data/discipline/effectiveXconsequences",
-    totalResp: 689,
+    totalResp: 735,
     displayPercentage: true,
     title: "Disciplinary System Effectiveness",
     subtitle:
@@ -2252,10 +2252,10 @@ window.onload = () => {
   sota.barChart({
     section: "discipline",
     dataFile: "assets/data/discipline/147-understand_processes",
-    totalResp: 691,
+    totalResp: 736,
     displayPercentage: true,
     title: "Student Understanding",
-    subtitle: "Do you understand the new Response to Student Behavior process?",
+    subtitle: "Do you understand the new disciplinary system, Pathways?",
     // 2025!!
   });
 
