@@ -736,7 +736,7 @@ window.onload = () => {
     // 2025!
   });
 
-  sota.pieChart({
+  sota.barChart({
     section: "politics",
     dataFile: "assets/data/politics/28-informed",
     sorted: false,
@@ -2389,7 +2389,7 @@ window.onload = () => {
   sota.barChart({
     section: "diversity",
     dataFile: "assets/data/diversity/138-faculty_diversity",
-    totalResp: 681,
+    totalResp: 714,
     displayPercentage: true,
     title: "Faculty Diversity",
     subtitle: "Do you think the faculty is lacking in diversity in...?",
@@ -2441,7 +2441,7 @@ window.onload = () => {
   sota.barChart({
     section: "diversity",
     dataFile: "assets/data/diversity/140-social_divide",
-    totalResp: 687,
+    totalResp: 726,
     displayPercentage: true,
     title: "Social Divide",
     subtitle:
@@ -2490,7 +2490,7 @@ window.onload = () => {
   sota.barChart({
     section: "diversity",
     dataFile: "assets/data/diversity/143-discrimination",
-    totalResp: 673,
+    totalResp: 722,
     displayPercentage: true,
     title: "Discrimination",
     subtitle:
@@ -2512,7 +2512,7 @@ window.onload = () => {
   sota.barChart({
     section: "diversity",
     dataFile: "assets/data/diversity/144-identity_discussion",
-    totalResp: 674,
+    totalResp: 718,
     displayPercentage: true,
     title: "Talking the Talk",
     subtitle:
@@ -2523,7 +2523,7 @@ window.onload = () => {
   sota.barChart({
     section: "diversity",
     dataFile: "assets/data/diversity/142-classroom_comfort",
-    totalResp: 679,
+    totalResp: 723,
     displayPercentage: true,
     title: "Classroom",
     subtitle:
@@ -2586,7 +2586,7 @@ window.onload = () => {
   sota.barChart({
     section: "diversity",
     dataFile: "assets/data/diversity/141-leadership",
-    totalResp: 674,
+    totalResp: 720,
     displayPercentage: true,
     title: "Leadership Positions",
     subtitle:
