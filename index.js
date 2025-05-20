@@ -1038,15 +1038,6 @@ window.onload = () => {
 
   sota.pieChart({
     section: "politics",
-    dataFile: "assets/data/politics/police",
-    title: "Police Reform",
-    subtitle:
-      "Do you believe that the current police system in the U.S. should be altered?",
-    // 2023!!
-  });
-
-  sota.pieChart({
-    section: "politics",
     dataFile: "assets/data/politics/israel-palestine",
     showLegend: true,
     title: "Israel-Palestine Education",
@@ -1068,10 +1059,10 @@ window.onload = () => {
     // 2025
   });
 
-  sota.customBarChart({
+  sota.barChart({
     section: "politics",
     dataFile: "assets/data/politics/drug-decriminalization",
-    shapeFile: "assets/svgs/pill-politics",
+    // shapeFile: "assets/svgs/pill-politics",
     title: "Decriminalization of Drugs",
     subtitle:
       "Do you believe that drugs should be decriminalized in the United States of America?",
@@ -1089,7 +1080,7 @@ window.onload = () => {
     title: "Decriminalization of Drugs & Incarceration",
     subtitle:
       "Whether respondents believe drugs should be decriminalized compared to whether they know an incarcerated person.",
-    // 2023!!
+    // 2025!
   });
 
   // sota.stackedBarChart({
@@ -1164,6 +1155,17 @@ window.onload = () => {
   //     "of respondents believe that gun control laws in the United States should be stricter.",
   //     // 2022!!
   // });
+
+  sota.customBarChart({
+    section: "politics",
+    dataFile: "assets/data/politics/police",
+    shapeFile: "assets/svgs/handcuff",
+    title: "Police Reform",
+    subtitle:
+      "Do you believe that the current police system in the U.S. should be altered? ",
+    // 2025; here so svg works
+  });
+
 
   sota.pieChart({
     section: "politics",
@@ -1290,6 +1292,8 @@ window.onload = () => {
   //   subtitle: "Do you support the death penalty?",
   //   // 2022!!
   // });
+
+
 
   // --- CAMPUS CULTURE!! ----
 
@@ -2559,7 +2563,7 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.pieChart({
+  sota.barChart({
     section: "diversity",
     dataFile: "assets/data/diversity/145-ebi",
     sorted: false,
@@ -3230,9 +3234,10 @@ window.onload = () => {
       "of respondents believe that the use of recreational drugs or alcohol is normalized at Andover.",
   }); // 2025
 
-  sota.pieChart({
+  sota.customBarChart({
     section: "drugs",
     dataFile: "assets/data/drugs/normalized",
+    shapeFile: "assets/svgs/pill-politics",
     displayPercentage: true,
     title:
       "Do you think that the use of recreational drugs or alcohol is normalized at Andover?",
